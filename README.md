@@ -1,1 +1,13 @@
-# upload_unity_game_config_ui
+# HCM202 Web
+
+## Installation
+```bash
+npm install
+```
+
+## Usage
+
+```npm
+npm run dev
+```
+
