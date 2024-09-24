@@ -1,0 +1,76 @@
+{
+  "Welcome": {
+    "Title": "Tư tưởng Hồ Chí Minh",
+    "Content": "Dự án web về môn học \"Tư tưởng Hồ Chí Minh\" nhằm mục đích xây dựng một nền tảng trực tuyến giúp sinh viên nắm vững kiến thức về tư tưởng của Chủ tịch Hồ Chí Minh, một phần quan trọng trong nền tảng tư tưởng và đường lối phát triển của Việt Nam. Trang web sẽ cung cấp các bài giảng, tài liệu học tập, câu hỏi thảo luận, và các bài kiểm tra giúp người học tiếp cận, ôn tập và củng cố kiến thức một cách dễ dàng và hiệu quả. Bên cạnh đó, tính năng tương tác và chia sẻ kinh nghiệm học tập giữa sinh viên sẽ được tích hợp nhằm tạo ra môi trường học tập tích cực và gắn kết. Dự án không chỉ là công cụ hỗ trợ học tập mà còn giúp lan tỏa những giá trị tư tưởng và đạo đức của Bác Hồ đến thế hệ trẻ.",
+    "url": 
+      {
+        "Anh_1": "../src/assets/AssetsMainmenu/welcome_1.jpg",
+        "Anh_2": "../src/assets/AssetsMainmenu/welcome_2.jpg",
+        "Anh_3": "../src/assets/AssetsMainmenu/welcome_3.webp"
+      }   
+  },
+  "ListChapter": {
+    "Chapter1": {
+      "title": "Chương 1",
+      "content": "123",
+      "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuU_LK7nbocj7gr_Hov07L6RVk4CFkww3qg&s"
+    },
+    "Chapter2": {
+      "title": "Chương 2",
+      "content": "",
+      "urlImage": ""
+    },
+    "Chapter3": {
+      "title": "Chương 3",
+      "content": "",
+      "urlImage": ""
+    },
+    "Chapter4": {
+      "title": "Chương 4",
+      "content": "",
+      "urlImage": ""
+    },
+    "Chapter5": {
+      "title": "Chương 5",
+      "content": "",
+      "urlImage": ""
+    },
+    "Chapter6": {
+      "title": "Chương 6",
+      "content": "",
+      "urlImage": ""
+    }
+  },
+  "ListDetail": {
+    "Chapter1": {
+      "title": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
+      "content": "Tư tưởng Hồ Chí Minh là hệ thống các quan điểm, lý luận về cách mạng Việt Nam, dựa trên chủ nghĩa Marx-Lenin, truyền thống dân tộc và tinh hoa văn hóa thế giới, nhằm định hướng xây dựng và phát triển đất nước theo con đường xã hội chủ nghĩa.",
+      "urlImage": ""
+    },
+    "Chapter2": {
+      "title": "Cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+      "urlImage": ""
+    },
+    "Chapter3": {
+      "title": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
+      "content": "",
+      "urlImage": ""
+    },
+    "Chapter4": {
+      "title": "Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam và Nhà nước của nhân dân, do nhân dân, vì nhân dân",
+      "content": "Tư tưởng Hồ Chí Minh về Đảng Cộng Sản Việt Nam và Nhà nước của nhân dân, do nhân dân, vì nhân dân tập trung vào các quan điểm và tư tưởng của Hồ Chí Minh về vai trò của Đảng Cộng sản và Nhà nước trong việc lãnh đạo, phục vụ nhân dân và xây dựng xã hội xã hội chủ nghĩa.",
+      "urlImage": ""
+    },
+    "Chapter5": {
+      "title": "Tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế",
+      "content": "",
+      "urlImage": ""
+    },
+    "Chapter6": {
+      "title": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
+      "content": "",
+      "urlImage": ""
+    }
+  }
+}
