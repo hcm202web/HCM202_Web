@@ -13,7 +13,6 @@ type WelcomeProps = {
 };
 
 function Welcome({ title, content, url }: WelcomeProps) {
-    console.log(JSON.stringify(url));
     return (
         <div className='flex flex-col overflow-hidden overflow-x-hidden overflow-y-hidden'>
             <LottiePlayer animationData={welcomeLottieFile} />
@@ -24,20 +23,20 @@ function Welcome({ title, content, url }: WelcomeProps) {
                 <div className="flex flex-col w-2/3 mx-auto border-4 border-[#D2600F] rounded-2xl outline-offset-[8px] drop-shadow-md mt-6">
                     <div className="flex justify-center items-center p-12 bg-neutral-100 rounded-t-2xl">
                         <div className="w-full text-center max-w-[800px]">
-                            <h1 className="mb-5 text-4xl text-zinc-800">{title}</h1>
-                            <p className="mb-5 text-lg text-stone-500">
+                            <h1 className="mb-5 text-5xl text-zinc-800">{title}</h1>
+                            <p className="mb-5 text-xl text-stone-500">
                                 {content}
                             </p>
                         </div>
                     </div>
-                    <div className="grid gap-2.5 px-2.5 py-12 grid-cols-[repeat(auto-fit,minmax(200px,1fr))]">
+                    <div className="grid gap-2.5 px-2.5 py-12 grid-cols-[repeat(auto-fit,minmax(200px,1fr))] rounded-2xl">
                         {url.map((imageUrl, index) => (
                             <img
                                 key={index}
                                 loading="lazy"
                                 alt=""
                                 srcSet={imageUrl}
-                                className="object-cover w-full h-80 bg-stone-300"
+                                className="object-cover w-full h-[30rem] bg-stone-300 rounded-xl"
                             />
                         ))}
                     </div>
@@ -68,9 +67,16 @@ const CardLeft: React.FC<CardProps> = ({ image, title, content, onClick }) => {
     return (
         <div className="min-h-[40rem] flex flex-row mx-auto mb-12 bg-white w-full shadow-[0px_4px_16px_rgba(0,0,0,0.1)]">
             <img src={image} loading="lazy" className="object-cover w-2/5 h-auto rounded-r-xl" />
-            <div className="flex flex-col justify-center p-5 pl-10 w-3/5">
-                <h3 className="mb-4 text-2xl text-zinc-800 font-bold text-balance">{title}</h3>
-                <p className="mb-5 text-base text-stone-500">{content}</p>
+            <div className="flex flex-col justify-center p-5 px-10 w-3/5">
+                <h3 className="mb-4 text-4xl text-zinc-800 font-bold text-balance">{title}</h3>
+                <p className="mb-5 text-2xl text-stone-500 text-pretty">
+                    {content &&
+                        content.split("\n").map((line, index) => (
+                            <span key={index}>
+                                {line}
+                                {index < content.split("\n").length - 1 && <br />}
+                            </span>
+                        ))}</p>
                 <button
                     className="self-start mt-2 px-5 bg-[#D2600F] rounded-2xl py-2.5 text-white font-bold uppercase cursor-pointer"
                     onClick={onClick}
@@ -86,9 +92,17 @@ const CardLeft: React.FC<CardProps> = ({ image, title, content, onClick }) => {
 const CardRight: React.FC<CardProps> = ({ image, title, content, onClick }) => {
     return (
         <div className="min-h-[40rem] flex flex-row  mx-auto mb-12 bg-white w-full shadow-[0px_4px_16px_rgba(0,0,0,0.1)]">
-            <div className="flex flex-col text-right justify-center p-5 pr-10 w-3/5">
-                <h3 className="mb-4 text-2xl text-zinc-800 font-bold text-balance">{title}</h3>
-                <p className="mb-5 text-base text-stone-500">{content}</p>
+            <div className="flex flex-col text-right justify-center p-5 px-10 w-3/5">
+                <h3 className="mb-4 text-4xl text-zinc-800 font-bold text-balance">{title}</h3>
+                <p className="mb-5 text-2xl text-stone-500 text-pretty">
+                    {content &&
+                        content.split("\n").map((line, index) => (
+                            <span key={index}>
+                                {line}
+                                {index < content.split("\n").length - 1 && <br />}
+                            </span>
+                        ))}
+                </p>
                 <button
                     className="self-end mt-2 px-5 bg-[#D2600F] rounded-2xl py-2.5 text-white font-bold uppercase cursor-pointer"
                     onClick={onClick}
@@ -133,7 +147,13 @@ function ListChapter({ chapters }: ListChapterProps) {
                     <div className="mt-5 text-center">
                         <h2 className="mb-2.5 text-2xl font-semibold">{chapter.title}</h2>
                         <p className="text-neutral-600 line-clamp-2 px-4">
-                            {chapter.content}
+                            {chapter.content &&
+                                chapter.content.split("\n").map((line, index) => (
+                                    <span key={index}>
+                                        {line}
+                                        {index < chapter.content.split("\n").length - 1 && <br />}
+                                    </span>
+                                ))}
                         </p>
                     </div>
                     <button
@@ -177,14 +197,16 @@ const MainMenuPage: React.FC = () => {
 
         OnGetMainMenuData();
     }, []);
-    console.log(JSON.stringify(localData) + " ===== " + JSON.stringify(localData?.Welcome));
+
     return (
         <div className="w-full h-full bg-[#FFF8F0]">
             {loading && (<LoadingSpinner />)}
             <div className='flex flex-col justify-center items-center mb-5'>
                 <Welcome
-                    title={localData?.Welcome?.Title || "Tư tưởng hồ chí minh"}
-                    content={localData?.Welcome?.Content || "Dự án web về môn học Tư tưởng Hồ Chí Minh..."}
+                    title={localData?.Welcome?.Title
+                        || "Tư tưởng hồ chí minh"}
+                    content={localData?.Welcome?.Content
+                        || "Dự án web về môn học \"Tư tưởng Hồ Chí Minh\" nhằm mục đích xây dựng một nền tảng trực tuyến giúp sinh viên nắm vững kiến thức về tư tưởng của Chủ tịch Hồ Chí Minh, một phần quan trọng trong nền tảng tư tưởng và đường lối phát triển của Việt Nam. Trang web sẽ cung cấp các bài giảng, tài liệu học tập, câu hỏi thảo luận, và các bài kiểm tra giúp người học tiếp cận, ôn tập và củng cố kiến thức một cách dễ dàng và hiệu quả. Bên cạnh đó, tính năng tương tác và chia sẻ kinh nghiệm học tập giữa sinh viên sẽ được tích hợp nhằm tạo ra môi trường học tập tích cực và gắn kết. Dự án không chỉ là công cụ hỗ trợ học tập mà còn giúp lan tỏa những giá trị tư tưởng và đạo đức của Bác Hồ đến thế hệ trẻ."}
                     url={[
                         localData?.Welcome?.url?.Anh_1 || "",
                         localData?.Welcome?.url?.Anh_2 || "",

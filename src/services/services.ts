@@ -20,9 +20,8 @@ API.interceptors.response.use(
 export const UserLogin = async (userName: string, password: string) => {
   const { baseUrl } = useApiStore.getState();
 
-  console.log("baseURl := " + baseUrl)
   try {
-    const response = await API.post(``, {
+    const response = await API.post(`${baseUrl}`, {
       userName,
       password,
     });
