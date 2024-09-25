@@ -20,13 +20,25 @@ const Header: React.FC = () => {
   };
 
   const handleClickChange = (option: string) => {
-    console.log(option + " option ================")
+    // console.log(option + " option ================")
     switch (option) {
-      case "Chương 1":
+      case "CHƯƠNG 1":
         navigate("/Chapter-1");
         break;
-      case "Chương 2":
+      case "CHƯƠNG 2":
         navigate("/Chapter-2");
+        break;
+      case "CHƯƠNG 3":
+        navigate("/Chapter-3");
+        break;
+      case "CHƯƠNG 4":
+        navigate("/Chapter-4");
+        break;
+      case "CHƯƠNG 5":
+        navigate("/Chapter-5");
+        break;
+      case "CHƯƠNG 6":
+        navigate("/Chapter-6");
         break;
     }
   }
@@ -53,8 +65,8 @@ const Header: React.FC = () => {
           </div>
           <div>
             <Dropdown
-              options={["Chương 1", "Chương 2"]}
-              defaultOption='Chương 1'
+              options={["CHƯƠNG 1", "CHƯƠNG 2", "CHƯƠNG 3", "CHƯƠNG 4", "CHƯƠNG 5", "CHƯƠNG 6"]}
+              defaultOption='CHƯƠNG 1'
               onOptionSelected={handleClickChange}
               bgColor='#232323'
             />
@@ -91,7 +103,7 @@ const Header: React.FC = () => {
                   <div className="h-8 hover:text-white text-black hover:bg-[#7C7C7C] rounded-t-lg flex flex-row justify-start items-center p-2">
                     <span
                       onClick={() => {
-                        console.log('Đăng xuất');
+                        // console.log('Đăng xuất');
                         logout();
                         setIsOpen(false);
                       }}
