@@ -2,75 +2,74 @@
   "Welcome": {
     "Title": "Tư tưởng Hồ Chí Minh",
     "Content": "Dự án web về môn học \"Tư tưởng Hồ Chí Minh\" nhằm mục đích xây dựng một nền tảng trực tuyến giúp sinh viên nắm vững kiến thức về tư tưởng của Chủ tịch Hồ Chí Minh, một phần quan trọng trong nền tảng tư tưởng và đường lối phát triển của Việt Nam. Trang web sẽ cung cấp các bài giảng, tài liệu học tập, câu hỏi thảo luận, và các bài kiểm tra giúp người học tiếp cận, ôn tập và củng cố kiến thức một cách dễ dàng và hiệu quả. Bên cạnh đó, tính năng tương tác và chia sẻ kinh nghiệm học tập giữa sinh viên sẽ được tích hợp nhằm tạo ra môi trường học tập tích cực và gắn kết. Dự án không chỉ là công cụ hỗ trợ học tập mà còn giúp lan tỏa những giá trị tư tưởng và đạo đức của Bác Hồ đến thế hệ trẻ.",
-    "url": 
-      {
-        "Anh_1": "../src/assets/AssetsMainmenu/welcome_1.jpg",
-        "Anh_2": "../src/assets/AssetsMainmenu/welcome_2.jpg",
-        "Anh_3": "../src/assets/AssetsMainmenu/welcome_3.webp"
-      }   
+    "url": {
+      "Anh_1": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256302/HCM/welcome_1_cb5ryf.jpg",
+      "Anh_2": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256301/HCM/welcome_2_zg5rcv.jpg",
+      "Anh_3": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256303/HCM/welcome_3_ikubz1.jpg"
+    }   
   },
   "ListChapter": {
     "Chapter1": {
       "title": "Chương 1",
       "content": "Tư tưởng Hồ Chí Minh là hệ thống các quan điểm, lý luận về cách mạng Việt Nam, dựa trên chủ nghĩa Marx-Lenin, truyền thống dân tộc và tinh hoa văn hóa thế giới, nhằm định hướng xây dựng và phát triển đất nước theo con đường xã hội chủ nghĩa.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_1_List.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256303/HCM/Chapter_1_List_rjgixb.jpg"
     },
     "Chapter2": {
       "title": "Chương 2",
       "content": "Cơ sở thế giới quan, phương pháp luận khoa học chủ nghĩa Mác Lênin và các quan điểm có giá trị phương pháp luận của Hồ Chí Minh. Các nguyên lý triết học Mác – Lênin, với tư cách là phương pháp luận chung của các ngành khoa học.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_2_List.jpeg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256304/HCM/Chapter_2_List_waw20p.jpg"
     },
     "Chapter3": {
       "title": "Chương 3",
       "content": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội là nội dung cốt lõi xuyên suốt toàn bộ tư tưởng Hồ Chí Minh; thể hiện sự nhất quán trong tư duy lý luận và hoạt động thực tiễn của Người. Từ khi trở thành người cộng sản cho đến khi trở thành lãnh tụ, nguyên thủ quốc gia, mối quan tâm hàng đầu của Hồ Chí Minh là gắn độc lập dân tộc với chủ nghĩa xã hội phù hợp với từng thời kỳ của cách mạng Việt Nam.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_3_List.png"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256314/HCM/Chapter_3_List_sl3bdj.png"
     },
     "Chapter4": {
       "title": "Chương 4",
       "content": "Chủ tịch Hồ Chí Minh đã cùng Đảng ta vận dụng sáng tạo \"tinh thần Xô viết\", thành lập Ủy ban Việt Minh, Ủy ban giải phóng và Ủy ban nhân dân cách mạng tỉnh, liên tỉnh.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_4_List.jpeg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256305/HCM/Chapter_4_List_sch7q2.jpg"
     },
     "Chapter5": {
       "title": "Chương 5",
       "content": "Trong di sản mà Chủ tịch Hồ Chí Minh để lại cho dân tộc Việt Nam và nhân loại, đoàn kết, hợp tác quốc tế là một trong những tư tưởng cốt lõi của Người. Đó là kim chỉ nam, định hướng quan trọng trong quá trình hoạch định, thực hiện đường lối đối ngoại của Đảng và Nhà nước ta trước đây cũng như hiện nay.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_5_List.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256300/HCM/Chapter_5_List_fdiwll.jpg"
     },
     "Chapter6": {
       "title": "Chương 6",
       "content": "Con đường hình thành danh nhân văn hoá Hồ Chí Minh là một con đường hiếm thấy, kết hợp nghiên cứu lý luận với thực tiễn, hoà mình vào cuộc sống của giai cấp cần lao. Trong quá trình đó, từ rất sớm. Người đã là  hiện thân cho nền văn hoá của tương lai,  đã trở thành “huyền thoại ngay khi còn sống” .",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_6_List.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256301/HCM/Chapter_6_List_or0jyw.jpg"
     }
   },
   "ListDetail": {
     "Chapter1": {
       "title": "Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh",
       "content": "Tư tưởng Hồ Chí Minh là một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam, từ cách mạng dân chủ nhân dân đến cách mạng xã hội chủ nghĩa; là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể nước ta, đồng thời là sự kết tinh tinh hoa văn hóa dân tộc và trí tuệ thời đại nhằm giải phóng dân tộc, giải phóng giai cấp, giải phóng con người...",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_1_Detail.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256302/HCM/Chapter_1_Detail_csnvlp.jpg"
     },
     "Chapter2": {
       "title": "Cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh",
       "content": "Trong nước, Hồ Chí Minh sinh ra và lớn lên trong hoàn cảnh đất nước có nhiều biến động. Trong nước, chính quyền triều Nguyễn đã từng bước khuất phục trước cuộc xâm lược của thực dân Pháp, lần lượt ký kết các hiệp ước đầu hàng, thừa nhận nền bảo hộ của chúng trên toàn cõi Việt Nam. Đầu thế kỷ XX, các cuộc khai thác thuộc địa của thực dân Pháp khiến cho xã hội nước ta có sự biến chuyển và phân hóa...",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_2_Detail.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256303/HCM/Chapter_2_Detail_sachio.jpg"
     },
     "Chapter3": {
       "title": "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
       "content": "Tư tưởng Hồ Chí Minh về độc lập dân tộc gắn liền với chủ nghĩa xã hội thể hiện ở ba nội dung lớn, đó là:\nThứ nhất, về mối quan hệ giữa độc lập dân tộc với tiến lên chủ nghĩa xã hội.\nThứ hai, những điều kiện bảo đảm cho độc lập dân tộc gắn liền với chủ nghĩa xã hội trong quá trình cách mạng Việt Nam.\nThứ ba, sự thể hiện trên thực tế tư tưởng Hồ Chí Minh về độc lập dân tộc gắn liền với chủ nghĩa xã hội.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_3_Detail.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256304/HCM/Chapter_3_Detail_uagh2v.jpg"
     },
     "Chapter4": {
       "title": "Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam và Nhà nước của nhân dân, do nhân dân, vì nhân dân",
       "content": "Trong quá trình bôn ba tìm đường cứu nước, với hành trang là chủ nghĩa yêu nước, Lãnh tụ Nguyễn Ái Quốc - Hồ Chí Minh luôn tìm tòi, khảo nghiệm để lựa chọn mô hình nhà nước tiến bộ, phù hợp với xu thế phát triển của lịch sử nhân loại. Người đã sớm đặt ra vấn đề tất yếu, phải lật đổ chế độ thực dân phong kiến, xây dựng nhà nước kiểu mới vô sản theo tinh thần của bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của V.I.Lênin mà Người được đọc trên báo Nhân đạo...",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_4_Detail.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256306/HCM/Chapter_4_Detail_jwx5xv.jpg"
     },
     "Chapter5": {
       "title": "Tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế",
       "content": "Suốt 60 năm hoạt động cách mạng, trong đó 30 năm hoạt động ở nước ngoài, liên tục tham gia phong trào cách mạng và đóng góp cho sự nghiệp chung của cách mạng thế giới; thông điệp về tình hữu nghị, đoàn kết, hợp tác quốc tế luôn được Chủ tịch Hồ Chí Minh thể hiện một cách rõ ràng, sâu sắc. Tư tưởng đoàn kết của Người thể hiện nhãn quan chính trị của một vĩ nhân, sự tài tình của nhà tổ chức cách mạng luôn đặt yếu tố đoàn kết lên hàng đầu. Theo di huấn của Người, chỉ có “đoàn kết, đại đoàn kết” mới tập hợp được lực lượng, hình thành được tổ chức cách mạng, mới tạo được sức mạnh to lớn để biến lý luận khoa học, biến đường lối, quan điểm của Đảng thành hiện thực và mới đạt được “đại thành công”...",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_5_Detail.jpg"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256305/HCM/Chapter_5_Detail_tvqkol.jpg"
     },
     "Chapter6": {
       "title": "Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người",
       "content": "Tháng 8-1943, Hồ Chí Minh đã đưa ra quan niệm về văn hoá như sau: “Vì lẽ sinh tồn cũng như mục đích của cuộc sống, loài người mới sáng tạo và phát minh ra ngôn ngữ, chữ viết, đạo đức, pháp luật, khoa học, tôn giáo, văn học, nghệ thuật, những công cụ cho sinh hoạt hàng ngày về mặc, ăn, ở và các phương thức sử dụng. Toàn bộ những sáng tạo và phát minh đó tức là văn hoá. Văn hoá là sự tổng hợp của mọi phương thức sinh hoạt cùng với biểu hiện của nó mà loài người đã sản sinh ra nhằm thích ứng những nhu cầu đời sống và đòi hỏi của sự sinh tồn”. Quan niệm của Hồ Chí Minh đã chỉ ra được nguồn gốc động lực và cấu trúc của văn hoá. Quan điểm này có tính kế thừa, phát triển và có trước khi UNESCO ra đời.",
-      "urlImage": "../src/assets/AssetsMainmenu/Chapter_6_Detail.png"
+      "urlImage": "https://res.cloudinary.com/doatgdqwk/image/upload/v1727256300/HCM/Chapter_6_Detail_uegmxg.png"
     }
   }
 }
