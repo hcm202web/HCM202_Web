@@ -29,7 +29,7 @@ const Chapter1Page: React.FC = () => {
                 <div className="bg-yellow-200 text-yellow-900 p-4 rounded-lg shadow-lg text-center">
                     🌟 <strong>Cùng khám phá mindmap trực quan và dễ hiểu về Chương 1:</strong> Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh – 
                         <a 
-                        href="https://www.figma.com/proto/tLQuX5ZklLcmQOdTi3W0cL/HCM?node-id=108-2999&node-type=canvas&t=cHKggZTJLJtHefMo-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A17" 
+                        href="https://www.figma.com/proto/tLQuX5ZklLcmQOdTi3W0cL/HCM?node-id=5-17&node-type=frame&t=H07Y8sII2pzSyhqm-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A17" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 underline hover:text-blue-800 ml-2"
@@ -48,7 +48,7 @@ const Chapter1Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-blue-800">Khái niệm</h3>
                     {openSection === 1 && (
                         <div className="mt-4 border-t-2 border-blue-200 pt-4">
-                            <img src={khainiemImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
+                            
                             <p className="mb-4 mt-4"><strong>Định nghĩa:</strong></p>
                             <p className="mb-4">
                                 “Tư tưởng Hồ Chí Minh là một hệ thống quan điểm, toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam, 
@@ -83,6 +83,7 @@ const Chapter1Page: React.FC = () => {
                                     cho hành động của Đảng và cách mạng Việt Nam.
                                 </p>
                             </ul>
+                            <img src={khainiemImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
@@ -92,7 +93,7 @@ const Chapter1Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-pink-800">Đối tượng</h3>
                     {openSection === 2 && (
                         <div className="mt-4 border-t-2 border-pink-200 pt-4">
-                            <img src={doituongImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
+                            
                             <p className="mb-4 mt-4">
                                 Toàn bộ những quan điểm của Hồ Chí Minh thể hiện trong di sản của Người, 
                                 những vấn đề lý luận và thực tiễn được rút ra từ cuộc đời hoạt động rất phong phú ở cả trong nước và trên thế giới của Hồ Chí Minh.
@@ -100,6 +101,7 @@ const Chapter1Page: React.FC = () => {
                             <p className="mb-4">
                                 Quá trình hệ thống quan điểm của Hồ Chí Minh vận động trong thực tiễn.
                             </p>
+                            <img src={doituongImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
@@ -109,12 +111,13 @@ const Chapter1Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-red-800">Ý nghĩa học tập</h3>
                     {openSection === 3 && (
                         <div className="mt-4 border-t-2 border-red-200 pt-4">
-                            <img src={ynghiaImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
-                            <p className="mt-4"><strong>Giáo dục và thực hành đạo đức cách mạng:</strong> Củng cố niềm tin khoa học gắn liền với trau dồi tình cảm cách mạng, bồi dưỡng lòng yêu nước. Có điều kiện tốt để thực hành đạo đức cách mạng, chống chủ nghĩa cá nhân, chống “giặc nội xâm” để lập thân, lập nghiệp, sống có ích cho xã hội, yêu và làm những điều thiện, ghét và tránh cái xấu, cái ác; nâng cao lòng tự hào về đất nước Việt Nam, về chế độ chính trị xã hội chủ nghĩa, về Hồ Chí Minh, về Đảng Cộng sản Việt Nam.</p>
+                            
+                            <p className="mt-2"><strong>Giáo dục và thực hành đạo đức cách mạng:</strong> Củng cố niềm tin khoa học gắn liền với trau dồi tình cảm cách mạng, bồi dưỡng lòng yêu nước. Có điều kiện tốt để thực hành đạo đức cách mạng, chống chủ nghĩa cá nhân, chống “giặc nội xâm” để lập thân, lập nghiệp, sống có ích cho xã hội, yêu và làm những điều thiện, ghét và tránh cái xấu, cái ác; nâng cao lòng tự hào về đất nước Việt Nam, về chế độ chính trị xã hội chủ nghĩa, về Hồ Chí Minh, về Đảng Cộng sản Việt Nam.</p>
         
                             <p className="mt-4"><strong>Xây dựng, rèn luyện phương pháp và phong cách công tác:</strong> Người học có thể vận dụng xây dựng phong cách tư duy, phong cách diễn đạt, phong cách làm việc, phong cách ứng xử, phong cách sinh hoạt, v.v.</p>
         
-                            <p className="mt-4"><strong>Góp phần nâng cao năng lực tư duy lý luận:</strong> Với ý nghĩa cùng với chủ nghĩa Mác-Lênin làm thành nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng và cách mạng Việt Nam, tư tưởng Hồ Chí Minh là những phương hướng về lý luận và thực tiễn hành động cho những người Việt Nam yêu nước.</p>
+                            <p className="mt-4 mb-4"><strong>Góp phần nâng cao năng lực tư duy lý luận:</strong> Với ý nghĩa cùng với chủ nghĩa Mác-Lênin làm thành nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng và cách mạng Việt Nam, tư tưởng Hồ Chí Minh là những phương hướng về lý luận và thực tiễn hành động cho những người Việt Nam yêu nước.</p>
+                            <img src={ynghiaImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
@@ -124,8 +127,8 @@ const Chapter1Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-green-800">Phương pháp</h3>
                     {openSection === 4 && (
                         <div className="mt-4 border-t-2 border-green-200 pt-4">
-                            <img src={phuongphapImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
-                            <p className="mt-4"><strong>Thống nhất tính đảng và tính khoa học:</strong> Phải đứng trên quan điểm của chủ nghĩa Mác-Lênin, quán triệt cương lĩnh, đường lối, quan điểm của Đảng Cộng sản Việt Nam. Đồng thời, phải bảo đảm tính khách quan, khoa học của các luận để nêu ra.</p>
+                            
+                            <p className="mt-2"><strong>Thống nhất tính đảng và tính khoa học:</strong> Phải đứng trên quan điểm của chủ nghĩa Mác-Lênin, quán triệt cương lĩnh, đường lối, quan điểm của Đảng Cộng sản Việt Nam. Đồng thời, phải bảo đảm tính khách quan, khoa học của các luận để nêu ra.</p>
         
                             <p className="mt-4"><strong>Thống nhất lý luận và thực tiễn:</strong> Đảm bảo sự thống nhất biện chứng giữa lý luận và thực tiễn.</p>
         
@@ -135,7 +138,8 @@ const Chapter1Page: React.FC = () => {
 
                             <p className="mt-4"><strong>Quan điểm kế thừa và phát triển:</strong> Đòi hỏi không chỉ biết kế thừa, vận dụng mà còn phải biết phát triển sáng tạo tư tưởng của Người trong điều kiện lịch sử mới, trong bối cảnh cụ thể của đất nước và quốc tế.</p>
 
-                            <p className="mt-4"><strong>Phương pháp cụ thể:</strong> Phương pháp lôgic, phương pháp lịch sử và sự kết hợp hai phương pháp này. Phương pháp phân tích văn bản kết hợp với nghiên cứu hoạt động thực tiễn của Hồ Chí Minh. Phương pháp chuyên ngành, liên ngành.</p>
+                            <p className="mt-4 mb-4"><strong>Phương pháp cụ thể:</strong> Phương pháp lôgic, phương pháp lịch sử và sự kết hợp hai phương pháp này. Phương pháp phân tích văn bản kết hợp với nghiên cứu hoạt động thực tiễn của Hồ Chí Minh. Phương pháp chuyên ngành, liên ngành.</p>
+                            <img src={phuongphapImage} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
