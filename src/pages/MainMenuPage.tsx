@@ -182,7 +182,7 @@ const MainMenuPage: React.FC = () => {
         const OnGetMainMenuData = async () => {
             try {
                 const rs = await fetch(
-                    "https://res.cloudinary.com/doatgdqwk/raw/upload/v1727256576/HCM/MainMenuData_hf58pm.json"
+                    "https://res.cloudinary.com/doatgdqwk/raw/upload/v1727426791/HCM/MainMenuData_sdxgp2.json"
                 );
                 const jsonData = await rs.json();
                 if (jsonData) {
