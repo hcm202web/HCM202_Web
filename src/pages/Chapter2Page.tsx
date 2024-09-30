@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import chuong2_1 from "../assets/chuong2/chuong2-1.png";
+import info1 from "../assets/chuong2/Infographic1.jpg";
+import info2 from "../assets/chuong2/Infographic2.jpg";
+import info3 from "../assets/chuong2/Infographic3.jpg";
 
 const Chapter2Page: React.FC = () => {
   const [openSection, setOpenSection] = useState<number | null>(null);
@@ -169,7 +172,9 @@ const Chapter2Page: React.FC = () => {
                   </tbody>
                 </table>
               </div>
-            </div>
+              <br />
+              <img src={info1} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
+            </div>           
           )}
         </div>
         <div
@@ -315,6 +320,8 @@ const Chapter2Page: React.FC = () => {
                   tư tưởng to lớn cho dân tộc và cách mạng Việt Nam.
                 </li>
               </div>
+              <br />
+              <img src={info2} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
             </div>
           )}
         </div>
@@ -417,6 +424,8 @@ const Chapter2Page: React.FC = () => {
                   </li>
                 </div>
               </div>
+              <br />
+              <img src={info3} alt="Khai niem" className="w-full max-w-7xl h-auto rounded-lg shadow-lg"/>
             </div>
           )}
         </div>
