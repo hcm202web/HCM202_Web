@@ -3,6 +3,7 @@ import chuong2_1 from "../assets/chuong2/chuong2-1.png";
 import info1 from "../assets/chuong2/Infographic1.jpg";
 import info2 from "../assets/chuong2/Infographic2.jpg";
 import info3 from "../assets/chuong2/Infographic3.jpg";
+import pannel from "../assets/chuong2/pannel.jpg"
 
 const Chapter2Page: React.FC = () => {
   const [openSection, setOpenSection] = useState<number | null>(null);
@@ -14,16 +15,33 @@ const Chapter2Page: React.FC = () => {
     console.log("Navigating to the test...");
   };
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full bg-gradient-to-b from-yellow-50 to-gray-100">
       <div className="flex flex-col justify-center items-center w-full mt-5 text-4xl md:text-5xl lg:text-6xl text-[#8B4513]">
         Chương 2
       </div>
       <div className="flex flex-col justify-center items-center text-center mt-2 text-4xl md:text-5xl lg:text-6xl text-[#8B4513] px-5 md:px-10 lg:px-20">
         Cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh
       </div>
+      <div className="flex justify-center items-center mt-5">
+        <div className="bg-yellow-200 text-yellow-900 p-4 rounded-lg shadow-lg text-center">
+          🌟{" "}
+          <strong>
+            Theo dõi fanpage để cập nhật thông tin sớm nhất nhé!
+          </strong>{" "}
+          <a
+            href="https://www.facebook.com/profile.php?id=61566550163263"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800 ml-2"
+          >
+            Nhấn vào đây để theo dõi ngay!
+          </a>{" "}
+          🌟
+        </div>
+      </div>
       <div className="flex justify-center mt-8">
         <img
-          src={chuong2_1}
+          src={pannel}
           className="w-full max-w-5xl h-auto rounded-lg shadow-lg"
         />
       </div>
@@ -37,7 +55,7 @@ const Chapter2Page: React.FC = () => {
             I. Cơ sở hình thành
           </h3>
           {openSection === 1 && (
-            <div className="mt-4 border-t-2 border-blue-200 pt-4">
+            <div className="mt-4 border-t-2 border-blue-200 pt-4 pr-8">
               <strong>
                 1. <u>Cơ sở thực tiễn:</u>
               </strong>{" "}
@@ -185,7 +203,7 @@ const Chapter2Page: React.FC = () => {
             II. Quá trình hình thành và phát triển tư tưởng Hồ Chí Minh
           </h3>
           {openSection === 2 && (
-            <div className="mt-4 border-t-2 border-pink-200 pt-4">
+            <div className="mt-4 border-t-2 border-pink-200 pt-4 pr-8">
               <strong>
                 1.{" "}
                 <u>
@@ -333,7 +351,7 @@ const Chapter2Page: React.FC = () => {
             III. Giá trị tư tưởng Hồ Chí Minh
           </h3>
           {openSection === 3 && (
-            <div className="mt-4 border-t-2 border-red-200 pt-4">
+            <div className="mt-4 border-t-2 border-red-200 pt-4 pr-8">
               <strong>1. Đối với cách mạng Việt Nam</strong>
               <div className="ml-5">
                 <strong>
