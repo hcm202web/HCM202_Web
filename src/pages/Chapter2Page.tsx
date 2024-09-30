@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import chuong2_1 from "../assets/chuong2/chuong2-1.png";
 import info1 from "../assets/chuong2/Infographic1.jpg";
 import info2 from "../assets/chuong2/Infographic2.jpg";
 import info3 from "../assets/chuong2/Infographic3.jpg";
