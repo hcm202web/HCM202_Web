@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import tutuong from "../assets/chuong4/tutuong.jpg";
+import hinh2 from "../assets/chuong4/2.png";
+import hinh3 from "../assets/chuong4/3.png";
+import hinh4 from "../assets/chuong4/4.png";
 const Chapter4Page: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -58,7 +61,7 @@ const Chapter4Page: React.FC = () => {
             <li style="margin-bottom: 8px;">Phải là những người luôn phòng và chống các tiêu cực.</li>
             </ul>
         `,
-          image: "src/assets/chuong4/2.png",
+          image: hinh2,
         });
         break;
       case "Box 2":
@@ -104,7 +107,7 @@ const Chapter4Page: React.FC = () => {
             </li>
             </ul>
             `,
-          image: "src/assets/chuong4/3.png",
+          image: hinh3,
         });
         break;
       case "Box 3":
@@ -142,7 +145,7 @@ const Chapter4Page: React.FC = () => {
                 </li>
                 </ul>
           `,
-          image: "src/assets/chuong4/4.png",
+          image: hinh4,
         });
         break;
       default:
