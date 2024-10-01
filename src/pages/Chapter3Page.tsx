@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 declare global {
     interface Window {
@@ -9,15 +9,7 @@ const Chapter3Page: React.FC = () => {
     const handleTestButtonClick = () => {
         console.log('Navigating to the test...');
     };
-    useEffect(() => {
-        // Kiểm tra nếu SDK của Facebook đã được tải
-        if (window.FB) {
-          window.FB.XFBML.parse();
-          console.log(" run ===========================================");
-        }
-        setLinkFB("https://www.facebook.com/61566550163263/videos/440058908540797");
-      }, [window.FB])
-      const [linkFB, setLinkFB] = useState("https://www.facebook.com/61566550163263/videos/440058908540797");
+
     return (
         <div className="w-full h-full bg-gradient-to-b from-yellow-50 to-gray-100 p-6">
             <div className="flex flex-col justify-center items-center w-full mt-5 text-4xl md:text-5xl lg:text-6xl text-[#8B4513]">
@@ -26,11 +18,25 @@ const Chapter3Page: React.FC = () => {
             <div className="flex flex-col justify-center items-center text-center mt-2 text-4xl md:text-5xl lg:text-6xl text-[#8B4513] px-5 md:px-10 lg:px-20">
                 Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
             </div>
+            <div className="flex justify-center items-center mt-5">
+        <div className="bg-yellow-200 text-yellow-900 p-4 rounded-lg shadow-lg text-center">
+          🌟{" "}
+          <strong>
+            Theo dõi fanpage để cập nhật thông tin sớm nhất nhé!
+          </strong>{" "}
+          <a
+            href="https://www.facebook.com/profile.php?id=61566550163263"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800 ml-2"
+          >
+            Nhấn vào đây để theo dõi ngay!
+          </a>{" "}
+          🌟
+        </div>
+      </div>
             <div className='flex flex-col justify-center items-center text-center mt-10'>
-            <iframe className='flex flex-col justify-center items-center text-center' src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61566550163263%2Fvideos%2F440058908540797%2F&show_text=false&width=560&t=0" width="1120" height="628" ></iframe>
-            </div>
-            <div className="flex justify-center mt-8 h-500 w-500" 
-                data-href="https://www.facebook.com/61566550163263/videos/440058908540797">
+            <iframe className='flex flex-col justify-center items-center text-center border-red-500 rounded-lg shadow-lg' src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61566550163263%2Fvideos%2F440058908540797%2F&show_text=false&width=560&t=0" width="1120" height="628" ></iframe>
             </div>
             <div className="flex justify-center mt-8">
                 <button 
