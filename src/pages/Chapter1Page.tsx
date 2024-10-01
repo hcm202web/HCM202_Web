@@ -4,6 +4,7 @@ import khainiemImage from '../assets/chuong1/khainiemchuong1.png';
 import ynghiaImage from '../assets/chuong1/ynghiahoctapchuong1.png'; 
 import doituongImage from '../assets/chuong1/doituongchuong1.png';
 import phuongphapImage from '../assets/chuong1/phuongphapchuong1.png'; 
+import { useNavigate } from 'react-router-dom';
 
 const Chapter1Page: React.FC = () => {
     const [openSection, setOpenSection] = useState<number | null>(null);
@@ -12,8 +13,10 @@ const Chapter1Page: React.FC = () => {
         setOpenSection(openSection === sectionIndex ? null : sectionIndex); 
     };
 
+    const navigate = useNavigate();
     const handleTestButtonClick = () => {
         console.log("Navigating to the test...");
+        navigate('/Quiz/chuong1')
     };
 
     return (

@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 
 const QuizPage: React.FC = () => {
   const {chapter: initChap} = useParams<{chapter : string}>();
-  const [chapter, setChapter] = useState<string>(initChap || 'chuong4');
+  const [chapter, setChapter] = useState<string>(initChap || 'chuong1');
   let [index, setIndex] = useState(0);
   const data = quizdata.chapters as QuizData['chapters'];
   const questions = data[chapter];
@@ -49,8 +49,12 @@ const QuizPage: React.FC = () => {
     <div className='w-[640px] mx-auto mt-[0px] bg-white text-[#262626] flex flex-col gap-[5px] rounded-[10px] p-[20px_30px]'>
       {/* Chapter Selection Dropdown */}
       <div className='mb-[20px]'>
-        <select id='chapter-select' onChange={selectChapter} value={chapter} className='p-[5px] max-w-[580px]'>
+          <select id='chapter-select' onChange={selectChapter} value={chapter} className='p-[5px] max-w-[580px]'>
+          <option value="chuong1">Chương 1: Khái niệm, đối tượng, phương pháp nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh</option>
+          <option value="chuong2">Chương 2: Cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh</option>
+          <option value="chuong3">Chương 3: Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội</option>
           <option value="chuong4">Chương 4: Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam và Nhà nước của dân, do dân và vì dân</option>
+          <option value="chuong5">Chương 5: Tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế</option>
           <option value="chuong6" disabled>Chương 6: Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người</option>
           <option value="chuong6.1.1">Chương 6.1.1 Một số nhận thức chung về văn hóa và quan hệ giữa văn hóa với các lĩnh vực khác</option>
           <option value="chuong6.1.2">Chương 6.1.2 Quan điểm của Hồ Chí Minh về vai trò của văn hóa</option>

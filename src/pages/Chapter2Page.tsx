@@ -3,6 +3,7 @@ import info1 from "../assets/chuong2/Infographic1.jpg";
 import info2 from "../assets/chuong2/Infographic2.jpg";
 import info3 from "../assets/chuong2/Infographic3.jpg";
 import pannel from "../assets/chuong2/pannel.jpg"
+import { useNavigate } from "react-router-dom";
 
 const Chapter2Page: React.FC = () => {
   const [openSection, setOpenSection] = useState<number | null>(null);
@@ -10,8 +11,10 @@ const Chapter2Page: React.FC = () => {
   const toggleSection = (sectionIndex: number) => {
     setOpenSection(openSection === sectionIndex ? null : sectionIndex);
   };
+  const navigate = useNavigate();
   const handleTestButtonClick = () => {
     console.log("Navigating to the test...");
+    navigate('/Quiz/chuong2')
   };
   return (
     <div className="w-full h-full bg-gradient-to-b from-yellow-50 to-gray-100">
