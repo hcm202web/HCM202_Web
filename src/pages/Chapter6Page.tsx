@@ -13,6 +13,7 @@ import connguoi1 from '../assets/chuong6/Con Người (1).png';
 import connguoi2 from '../assets/chuong6/Con Người (2).png';
 import connguoi3 from '../assets/chuong6/Con Người (3).png';
 import xaydung from '../assets/chuong6/Xây Dựng.png';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const Chapter6Page: React.FC = () => {
     const [openSection, setOpenSection] = useState<number | null>(null);
@@ -21,8 +22,10 @@ const Chapter6Page: React.FC = () => {
         setOpenSection(openSection === sectionIndex ? null : sectionIndex); 
     };
 
+    const navigate = useNavigate();
     const handleTestButtonClick = () => {
         console.log("Navigating to the test...");
+        navigate('/Quiz/chuong6.1.1');
     };
 
     return (

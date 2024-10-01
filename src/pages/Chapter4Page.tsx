@@ -3,11 +3,14 @@ import tutuong from "../assets/chuong4/tutuong.jpg";
 import anh2 from "../assets/chuong4/2.png"
 import anh3 from "../assets/chuong4/3.png"
 import anh4 from "../assets/chuong4/4.png"
+import { useNavigate } from "react-router-dom";
 const Chapter4Page: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const navigate = useNavigate();
   const handleTestButtonClick = () => {
     console.log("Navigating to the test...");
+    navigate('/Quiz/chuong4')
   };
 
   const [modalContent, setModalContent] = useState({

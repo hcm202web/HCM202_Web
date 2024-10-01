@@ -14,6 +14,7 @@ import Chapter4Page from './pages/Chapter4Page';
 import Chapter5Page from './pages/Chapter5Page';
 import Chapter6Page from './pages/Chapter6Page';
 import Header from './layout/Header';
+import QuizPage from './pages/QuizPage';
 
 const CatchAllRoute = () => {
   const location = useLocation();
@@ -64,6 +65,10 @@ function App() {
         <Route
           path="/Chapter-6"
           element={accessToken ? <Chapter6Page /> : <Navigate to="/sign-in" />}
+        />
+        <Route
+          path="/Quiz/:chapter"
+          element={accessToken ? <QuizPage /> : <Navigate to="/sign-in" />}
         />
         <Route path="*" element={<CatchAllRoute />} />
       </Routes>

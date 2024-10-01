@@ -1,0 +1,260 @@
+{
+    "chapters": {
+        "chuong4" : [
+            {
+                "question": "Theo Hồ Chí Minh, tập trung trong Đảng có nghĩa là thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, tất cả đảng viên chấp hành",
+                "option1": "Vô điều kiện nghị quyết của Tổng bí thư",
+                "option2": "Vô điều kiện nghị quyết của Chủ tịch nước",
+                "option3": "Vô điều kiện nghị quyết của Đảng",
+                "option4": "Vô điều kiện nghị quyết của Quốc hội",
+                "ans": 2
+            }
+        ],
+        "chuong6.1.1" : [
+            {
+                "question": "Hồ Chí Minh chủ trương kết hợp văn hóa dân tộc với điều gì?",
+                "option1": "Khoa học kỹ thuật",
+                "option2": "Tinh hoa văn hóa nhân loại",
+                "option3": "Kinh tế chính trị",
+                "option4": "Văn hóa phương Tây",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng văn hóa phải chống lại những gì?",
+                "option1": "Bệnh dịch, nghèo đói",
+                "option2": "Tham nhũng, lười biếng, phù hoa, xa xỉ",
+                "option3": "Chiến tranh, đói nghèo",
+                "option4": "Độc lập, tự do",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, văn hóa có mấy cách tiếp cận chủ yếu?",
+                "option1": "2",
+                "option2": "3",
+                "option3": "4",
+                "option4": "5",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh viết rằng văn hóa là sự tổng hợp của tất cả những gì con người đã sản sinh ra để thích ứng với nhu cầu nào?",
+                "option1": "Kinh tế",
+                "option2": "Sinh tồn và đời sống",
+                "option3": "Chính trị",
+                "option4": "Giáo dục",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh đưa ra quan điểm về văn hóa khi đang ở đâu vào năm 1943?",
+                "option1": "Việt Nam",
+                "option2": "Pháp",
+                "option3": "Nhà tù của Tưởng Giới Thạch",
+                "option4": "Liên Xô",
+                "ans": 3
+            },
+            {
+                "question": "Quan hệ giữa văn hóa và xã hội được Hồ Chí Minh giải thích là: 'Giải phóng chính trị đồng nghĩa với giải phóng xã hội, từ đó văn hóa mới có điều kiện để gì?'",
+                "option1": "Phát triển",
+                "option2": "Giảm bớt",
+                "option3": "Bị hạn chế",
+                "option4": "Tiêu diệt",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh khẳng định văn hóa dân tộc được thể hiện rõ nhất qua yếu tố gì?",
+                "option1": "Lòng yêu nước",
+                "option2": "Sự giàu có",
+                "option3": "Khoa học kỹ thuật",
+                "option4": "Nghệ thuật",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng trong chế độ nô lệ, văn học nghệ thuật sẽ bị gì?",
+                "option1": "Phát triển mạnh",
+                "option2": "Tự do",
+                "option3": "Nô lệ, không thể phát triển",
+                "option4": "Tự chủ",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh nói về sự tiếp thu văn hóa nhân loại với nguyên tắc nào?",
+                "option1": "Loại bỏ văn hóa Đông phương",
+                "option2": "Tiếp thu cái hay, cái tốt",
+                "option3": "Bảo vệ văn hóa phương Tây",
+                "option4": "Không tiếp thu bất cứ văn hóa nào",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh khẳng định, văn hóa dân tộc được xây dựng trên cơ sở gì?",
+                "option1": "Lòng tự hào dân tộc",
+                "option2": "Kinh tế phát triển",
+                "option3": "Kiến thức văn hóa phương Tây",
+                "option4": "Truyền thống và tinh thần dân chủ",
+                "ans": 4
+            }
+        ],
+        "chuong6.1.2" : [
+            {
+                "question": "Theo Hồ Chí Minh, mục tiêu của cách mạng Việt Nam là gì?",
+                "option1": "Độc lập dân tộc gắn liền với phát triển kinh tế",
+                "option2": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+                "option3": "Phát triển văn hóa và kinh tế",
+                "option4": "Giải phóng dân tộc và phát triển kinh tế",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh nhấn mạnh, văn hóa phải soi đường cho ai?",
+                "option1": "Nhà nước",
+                "option2": "Quốc dân",
+                "option3": "Đảng viên",
+                "option4": "Lãnh đạo",
+                "ans": 2
+            },
+            {
+                "question": "Văn hóa theo Hồ Chí Minh được nhìn nhận là gì?",
+                "option1": "Một phương thức sinh hoạt",
+                "option2": "Nền tảng vật chất của xã hội",
+                "option3": "Những giá trị chân chính của loài người",
+                "option4": "Một công cụ quản lý",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh đã đặt nền móng cho một xã hội phát triển bền vững với mấy trụ cột?",
+                "option1": "Hai trụ cột",
+                "option2": "Ba trụ cột",
+                "option3": "Bốn trụ cột",
+                "option4": "Năm trụ cột",
+                "ans": 2
+            },
+            {
+                "question": "Trong di sản Hồ Chí Minh, những trụ cột bền vững bao gồm kinh tế, xã hội và gì?",
+                "option1": "Chính trị",
+                "option2": "Văn hóa",
+                "option3": "Môi trường",
+                "option4": "Giáo dục",
+                "ans": 3
+            },
+            {
+                "question": "Văn hóa là động lực phát triển bao gồm những yếu tố nào?",
+                "option1": "Động lực cá nhân và tập thể",
+                "option2": "Động lực vật chất và tinh thần",
+                "option3": "Động lực tự do và tự chủ",
+                "option4": "Động lực quốc gia và quốc tế",
+                "ans": 2
+            },
+            {
+                "question": "Văn hóa môi trường theo Hồ Chí Minh có vai trò gì?",
+                "option1": "Đào tạo những cán bộ mới",
+                "option2": "Bảo vệ tài nguyên quốc gia",
+                "option3": "Giáo dục con người mới",
+                "option4": "Phát triển du lịch",
+                "ans": 3
+            },
+            {
+                "question": "Theo Hồ Chí Minh, đạo đức là gì của người cách mạng?",
+                "option1": "Nền tảng",
+                "option2": "Động lực",
+                "option3": "Căn bản",
+                "option4": "Gốc",
+                "ans": 4
+            },
+            {
+                "question": "Văn hóa pháp luật, theo Hồ Chí Minh, nhằm mục đích gì?",
+                "option1": "Phát triển nghệ thuật",
+                "option2": "Bảo đảm dân chủ, trật tự, kỷ cương",
+                "option3": "Quản lý kinh tế",
+                "option4": "Tăng cường quốc phòng",
+                "ans": 2
+            },
+            {
+                "question": "Văn hóa là một trong mấy nội dung chính của đời sống kinh tế - xã hội?",
+                "option1": "Ba nội dung",
+                "option2": "Bốn nội dung",
+                "option3": "Năm nội dung",
+                "option4": "Sáu nội dung",
+                "ans": 2
+            }
+        ],
+        "chuong6.1.3" : [
+            {
+                "question": "Trước Cách mạng Tháng Tám năm 1945, Hồ Chí Minh đã đưa ra quan niệm về xây dựng nền văn hóa Việt Nam với mấy nội dung?",
+                "option1": "3 nội dung",
+                "option2": "4 nội dung",
+                "option3": "5 nội dung",
+                "option4": "6 nội dung",
+                "ans": 3
+            },
+            {
+                "question": "Một trong những nội dung của việc xây dựng nền văn hóa mới là gì?",
+                "option1": "Xây dựng tâm lý: Tinh thần đoàn kết dân tộc",
+                "option2": "Xây dựng tâm lý: Tinh thần độc lập tự cường",
+                "option3": "Xây dựng tâm lý: Tinh thần phục tùng quốc tế",
+                "option4": "Xây dựng tâm lý: Tinh thần yêu chuộng hòa bình",
+                "ans": 2
+            },
+            {
+                "question": "Nội dung xây dựng luân lý mà Hồ Chí Minh đề cập là gì?",
+                "option1": "Hy sinh cá nhân vì lợi ích quốc gia",
+                "option2": "Biết hy sinh mình, làm lợi cho quần chúng",
+                "option3": "Giữ gìn truyền thống dân tộc",
+                "option4": "Hy sinh lợi ích quốc tế",
+                "ans": 2
+            },
+            {
+                "question": "Xây dựng xã hội trong nền văn hóa mới của Hồ Chí Minh liên quan đến điều gì?",
+                "option1": "Đời sống vật chất",
+                "option2": "Mọi sự nghiệp liên quan đến phúc lợi của nhân dân",
+                "option3": "Phát triển công nghiệp hiện đại",
+                "option4": "Quản lý xã hội qua văn hóa",
+                "ans": 2
+            },
+            {
+                "question": "Xây dựng chính trị trong quan điểm văn hóa của Hồ Chí Minh là gì?",
+                "option1": "Tăng cường quyền lực nhà nước",
+                "option2": "Bảo vệ quyền tự do",
+                "option3": "Xây dựng dân quyền",
+                "option4": "Tạo sự ổn định chính trị",
+                "ans": 3
+            },
+            {
+                "question": "Trong kháng chiến chống Pháp, Hồ Chí Minh nhấn mạnh điều gì trong việc xây dựng nền văn hóa mới?",
+                "option1": "Phát triển nghệ thuật và văn học",
+                "option2": "Kết hợp văn hóa Đông - Tây",
+                "option3": "Tính chất dân tộc, khoa học, đại chúng",
+                "option4": "Giữ gìn truyền thống văn hóa dân gian",
+                "ans": 3
+            },
+            {
+                "question": "Quan điểm của Hồ Chí Minh về xây dựng nền văn hóa mới trong thời kỳ kháng chiến chống Pháp dựa trên quan điểm của Đảng vào năm nào?",
+                "option1": "1930",
+                "option2": "1943",
+                "option3": "1950",
+                "option4": "1945",
+                "ans": 2
+            },
+            {
+                "question": "Trong thời kỳ miền Bắc quá độ lên chủ nghĩa xã hội, Hồ Chí Minh chủ trương xây dựng nền văn hóa mới phải đảm bảo yếu tố nào?",
+                "option1": "Tính hiện đại và quốc tế",
+                "option2": "Tính dân tộc, hiện đại và văn minh",
+                "option3": "Tính khoa học và kinh tế",
+                "option4": "Tính truyền thống và quốc tế",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, nền văn hóa mới Việt Nam phải giữ gìn điều gì?",
+                "option1": "Tính thống nhất",
+                "option2": "Cốt cách văn hóa dân tộc",
+                "option3": "Tính đa dạng văn hóa",
+                "option4": "Ảnh hưởng của văn hóa phương Tây",
+                "ans": 2
+            },
+            {
+                "question": "Nền văn hóa mới theo quan điểm của Hồ Chí Minh phải đảm bảo yếu tố nào?",
+                "option1": "Tính truyền thống và hiện đại",
+                "option2": "Tính cá nhân và quốc tế",
+                "option3": "Tính khoa học, hiện đại và văn minh",
+                "option4": "Tính toàn cầu và cốt lõi",
+                "ans": 3
+            }
+        ]        
+    }
+}
