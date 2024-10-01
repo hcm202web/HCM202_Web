@@ -1,5 +1,643 @@
 {
     "chapters": {
+        "chuong1" : [
+            {
+                "question": "Tư tưởng Hồ Chí Minh là hệ thống quan điểm về vấn đề nào?",
+                "option1": "Khoa học và văn hóa Việt Nam",
+                "option2": "Cách mạng Việt Nam",
+                "option3": "Văn hóa và giáo dục Việt Nam",
+                "option4": "Chính trị và kinh tế Việt Nam",
+                "ans": 2
+            },
+            {
+                "question": "Cơ sở hình thành Tư tưởng Hồ Chí Minh bao gồm yếu tố nào sau đây?",
+                "option1": "Chủ nghĩa Mác-Lênin",
+                "option2": "Giá trị truyền thống của dân tộc",
+                "option3": "Tinh hoa văn hóa nhân loại",
+                "option4": "Tất cả các phương án trên",
+                "ans": 4
+            },
+            {
+                "question": "Giá trị nào là cơ bản nhất trong quá trình hình thành và phát triển của Tư tưởng Hồ Chí Minh?",
+                "option1": "Chủ nghĩa dân tộc",
+                "option2": "Chủ nghĩa Mác-Lênin",
+                "option3": "Tinh hoa văn hóa nhân loại",
+                "option4": "Tư tưởng tự do",
+                "ans": 2
+            },
+            {
+                "question": "Phương pháp luận cơ bản để nghiên cứu Tư tưởng Hồ Chí Minh là gì?",
+                "option1": "Quan điểm thực tiễn",
+                "option2": "Quan điểm chủ nghĩa Mác-Lênin",
+                "option3": "Quan điểm phát triển lịch sử",
+                "option4": "Quan điểm khoa học tự nhiên",
+                "ans": 2
+            },
+            {
+                "question": "Chọn phương án trả lời đúng nhất cho tư tưởng Hồ Chí Minh?",
+                "option1": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện thực tế của nước ta.",
+                "option2": "Tư tưởng Hồ Chí Minh là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của nước ta.",
+                "option3": "Tư tưởng Hồ Chí Minh là kết quả của sự phát triển sáng tạo chủ nghĩa Mác - Lênin vào điều kiện thực tế của nước ta.",
+                "option4": "Tư tưởng Hồ Chí Minh là kết quả của sự sáng tạo chủ nghĩa Mác -Lênin vào điều kiện thực tế của nước ta.",
+                "ans": 2
+            },
+            {
+                "question": "Trong các nguồn gốc hình thành tư tưởng Hồ Chí Minh, nguồn gốc nào quan trọng nhất, quyết định đối với việc hình thành và phát triển tư tưởng Hồ Chí Minh?",
+                "option1": "Truyền thống văn hoá của dân tộc Việt Nam.",
+                "option2": "Những phẩm chất chủ quan của Hồ Chí Minh",
+                "option3": "Tinh hoa văn hoá loài người",
+                "option4": "Chủ nghĩa Mác - Lênin",
+                "ans": 4
+            },
+            {
+                "question": "Quan điểm nào cần phải đảm bảo khi nghiên cứu Tư tưởng Hồ Chí Minh?",
+                "option1": "Tính độc lập",
+                "option2": "Tính khách quan và khoa học",
+                "option3": "Tính cá nhân hóa",
+                "option4": "Tính phổ biến và truyền thống",
+                "ans": 2
+            },
+            {
+                "question": "Một trong những phương pháp cụ thể khi nghiên cứu Tư tưởng Hồ Chí Minh là gì?",
+                "option1": "Phương pháp phân tích lôgic",
+                "option2": "Phương pháp khảo sát",
+                "option3": "Phương pháp lịch sử",
+                "option4": "Cả A và C",
+                "ans": 4
+            },
+            {
+                "question": "Hồ Chí Minh viết: \"Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do\" ở tác phẩm nào?",
+                "option1": "Đường cách mạng",
+                "option2": "Bản án chế độ thực dân Pháp",
+                "option3": "Tuyên ngôn độc lập",
+                "option4": "Tuyên ngôn của Đảng cộng sản",
+                "ans": 3
+            },
+            {
+                "question": "Theo Tư tưởng Hồ Chí Minh, phương pháp làm việc và phong cách công tác cần được xây dựng như thế nào?",
+                "option1": "Dựa trên lý luận thực tiễn",
+                "option2": "Dựa trên tư duy và ứng xử",
+                "option3": "Dựa trên di sản văn hóa dân tộc",
+                "option4": "Cả A và B",
+                "ans": 4
+            },
+            {
+                "question": "Một trong những yêu cầu của quan điểm toàn diện và hệ thống khi nghiên cứu Tư tưởng Hồ Chí Minh là gì?",
+                "option1": "Phải xét đến các mối quan hệ qua lại giữa các yếu tố",
+                "option2": "Chỉ tập trung vào vấn đề chính trị",
+                "option3": "Chỉ quan tâm đến những giá trị văn hóa",
+                "option4": "Không chú ý đến bối cảnh lịch sử",
+                "ans": 1
+            },
+            {
+                "question": "Ý nghĩa của Tư tưởng Hồ Chí Minh đối với sự nghiệp cách mạng là gì?",
+                "option1": "Soi đường cho các phong trào dân chủ",
+                "option2": "Là tài sản tinh thần vô giá",
+                "option3": "Thúc đẩy sự phát triển của kinh tế",
+                "option4": "Cả B và C",
+                "ans": 2
+            },
+            {
+                "question": "Quan điểm nào được Hồ Chí Minh kế thừa và phát triển sáng tạo trong Tư tưởng của mình?",
+                "option1": "Chủ nghĩa Mác-Lênin",
+                "option2": "Giá trị truyền thống của dân tộc",
+                "option3": "Tinh hoa văn hóa nhân loại",
+                "option4": "Tất cả các phương án trên",
+                "ans": 4
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh coi trọng yếu tố nào trong quá trình lập thân và lập nghiệp?",
+                "option1": "Tài chính",
+                "option2": "Đạo đức cách mạng",
+                "option3": "Kỹ năng lãnh đạo",
+                "option4": "Sự học tập",
+                "ans": 2
+            },
+            {
+                "question": "Học tập Tư tưởng Hồ Chí Minh giúp phát triển yếu tố nào cho người học?",
+                "option1": "Khả năng quản lý tài chính",
+                "option2": "Phong cách ứng xử",
+                "option3": "Khả năng lãnh đạo",
+                "option4": "Kỹ năng tự học",
+                "ans": 2
+            },
+            {
+                "question": "Phương pháp luận nghiên cứu Tư tưởng Hồ Chí Minh đòi hỏi phải thống nhất điều gì?",
+                "option1": "Thống nhất giữa lý luận và thực tiễn",
+                "option2": "Thống nhất giữa lý thuyết và giả thuyết",
+                "option3": "Thống nhất giữa nghiên cứu và khảo sát",
+                "option4": "Thống nhất giữa văn hóa và giáo dục",
+                "ans": 1
+            },
+            {
+                "question": "Một trong những ý nghĩa quan trọng của việc học tập Tư tưởng Hồ Chí Minh là gì?",
+                "option1": "Phát triển lòng tự hào về đất nước",
+                "option2": "Xây dựng tư duy sáng tạo",
+                "option3": "Mở rộng kiến thức chính trị",
+                "option4": "Tất cả các phương án trên",
+                "ans": 1
+            },
+            {
+                "question": "Quan điểm nào được Hồ Chí Minh đặc biệt nhấn mạnh trong quá trình xây dựng cách mạng?",
+                "option1": "Quan điểm độc lập dân tộc",
+                "option2": "Quan điểm giáo dục",
+                "option3": "Quan điểm phát triển kinh tế",
+                "option4": "Quan điểm quốc tế hóa",
+                "ans": 1
+            },
+            {
+                "question": "Phương pháp kết hợp giữa lịch sử và lôgic là một phương pháp nào trong nghiên cứu Tư tưởng Hồ Chí Minh?",
+                "option1": "Phương pháp tổng hợp",
+                "option2": "Phương pháp đặc biệt",
+                "option3": "Phương pháp cụ thể",
+                "option4": "Phương pháp truyền thống",
+                "ans": 3
+            },
+            {
+                "question": "Giá trị nào không thuộc cơ sở hình thành Tư tưởng Hồ Chí Minh?",
+                "option1": "Chủ nghĩa Mác-Lênin",
+                "option2": "Chủ nghĩa dân tộc",
+                "option3": "Tinh hoa văn hóa nhân loại",
+                "option4": "Truyền thống tốt đẹp của dân tộc",
+                "ans": 3
+            },
+            {
+                "question": "Một trong những nội dung cơ bản của Tư tưởng Hồ Chí Minh là gì?",
+                "option1": "Phát triển nền kinh tế độc lập",
+                "option2": "Xây dựng hệ thống giáo dục hiện đại",
+                "option3": "Giải phóng dân tộc và xây dựng chủ nghĩa xã hội",
+                "option4": "Phát triển nền văn hóa dân tộc",
+                "ans": 3
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh bao gồm các yếu tố gì trong hệ thống quan điểm của Người?",
+                "option1": "Văn hóa và giáo dục",
+                "option2": "Chính trị, quân sự, ngoại giao",
+                "option3": "Kinh tế và luật pháp",
+                "option4": "Tất cả các yếu tố trên",
+                "ans": 4
+            },
+            {
+                "question": "Phương pháp nghiên cứu nào kết hợp giữa phân tích văn bản và nghiên cứu thực tiễn trong Tư tưởng Hồ Chí Minh?",
+                "option1": "Phương pháp luận",
+                "option2": "Phương pháp lịch sử",
+                "option3": "Phương pháp liên ngành",
+                "option4": "Phương pháp cụ thể",
+                "ans": 4
+            },
+            {
+                "question": "Nội dung của Tư tưởng Hồ Chí Minh phản ánh điều gì?",
+                "option1": "Vấn đề kinh tế toàn cầu",
+                "option2": "Quy luật của cách mạng Việt Nam",
+                "option3": "Phát triển hệ thống giáo dục",
+                "option4": "Vấn đề hội nhập quốc tế",
+                "ans": 2
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh nhấn mạnh điều gì trong phong cách làm việc của người lãnh đạo?",
+                "option1": "Khả năng sáng tạo",
+                "option2": "Phong cách dân chủ và tập trung",
+                "option3": "Sự quyết đoán và trách nhiệm",
+                "option4": "Sự linh hoạt trong hành động",
+                "ans": 2
+            },
+            {
+                "question": "Một trong những mục tiêu của việc học tập Tư tưởng Hồ Chí Minh là gì?",
+                "option1": "Nâng cao khả năng quản lý tài chính",
+                "option2": "Củng cố niềm tin khoa học cách mạng",
+                "option3": "Tăng cường kỹ năng giao tiếp",
+                "option4": "Nâng cao kiến thức về hội nhập quốc tế",
+                "ans": 2
+            },
+            {
+                "question": "Quan điểm nào đòi hỏi phải xem xét sự vật trong sự phát triển lịch sử của nó?",
+                "option1": "Quan điểm phát triển bền vững",
+                "option2": "Quan điểm lịch sử - cụ thể",
+                "option3": "Quan điểm toàn diện",
+                "option4": "Quan điểm thực tiễn",
+                "ans": 2
+            },
+            {
+                "question": "Để phát triển sáng tạo Tư tưởng Hồ Chí Minh trong bối cảnh mới, cần có quan điểm nào?",
+                "option1": "Quan điểm kế thừa và phát triển",
+                "option2": "Quan điểm quốc tế hóa",
+                "option3": "Quan điểm đổi mới giáo dục",
+                "option4": "Quan điểm độc lập dân tộc",
+                "ans": 1
+            },
+            {
+                "question": "Phong cách công tác của Hồ Chí Minh thể hiện điều gì?",
+                "option1": "Tư duy chiến lược",
+                "option2": "Sự giản dị và gần gũi",
+                "option3": "Sự lãnh đạo sáng tạo",
+                "option4": "Tất cả các phương án trên",
+                "ans": 4
+            },
+            {
+                "question": "Theo Tư tưởng Hồ Chí Minh, nền tảng tư tưởng của Đảng Cộng sản Việt Nam gồm những yếu tố nào?",
+                "option1": "Chủ nghĩa Mác-Lênin và văn hóa nhân loại",
+                "option2": "Chủ nghĩa Mác-Lênin và Tư tưởng Hồ Chí Minh",
+                "option3": "Chủ nghĩa dân tộc và văn hóa truyền thống",
+                "option4": "Chủ nghĩa Mác-Lênin và tư duy cách mạng",
+                "ans": 2
+            }
+        ],
+        "chuong2" : [
+            {
+                "question": "Cơ sở thực tiễn hình thành tư tưởng Hồ Chí Minh bao gồm gì?",
+                "option1": "Cách mạng Pháp",
+                "option2": "Cách mạng Tháng Mười Nga",
+                "option3": "Cách mạng Mỹ",
+                "option4": "Chiến tranh thế giới thứ hai",
+                "ans": 2
+            },
+            {
+                "question": "Thực tiễn nào đã mở ra con đường giải phóng cho các dân tộc bị áp bức?",
+                "option1": "Cách mạng công nghiệp",
+                "option2": "Cách mạng Tháng Mười Nga",
+                "option3": "Chiến tranh thế giới thứ nhất",
+                "option4": "Cách mạng tư sản",
+                "ans": 2
+            },
+            {
+                "question": "Thời điểm nào Việt Nam diễn ra cuộc khủng hoảng về đường lối cứu nước?",
+                "option1": "Cuối thế kỷ XVIII",
+                "option2": "Cuối thế kỷ XIX - đầu thế kỷ XX",
+                "option3": "Đầu thế kỷ XIX",
+                "option4": "Giữa thế kỷ XX",
+                "ans": 2
+            },
+            {
+                "question": "Giá trị cốt lõi xuyên suốt của dân tộc Việt Nam là gì?",
+                "option1": "Chủ nghĩa xã hội",
+                "option2": "Chủ nghĩa yêu nước",
+                "option3": "Chủ nghĩa tự do",
+                "option4": "Chủ nghĩa tư bản",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh đã không kế thừa tư tưởng nào của Nho giáo?",
+                "option1": "Lý tưởng về một xã hội bình trị",
+                "option2": "Triết lý nhân sinh, tu thân dưỡng tính",
+                "option3": "Đề cao văn hóa lễ giáo, hiếu học",
+                "option4": "Quan điểm phân biệt đẳng cấp",
+                "ans": 4
+            },
+            {
+                "question": "Phật giáo trong tư tưởng Hồ Chí Minh đề cao điều gì?",
+                "option1": "Từ bi, yêu thương",
+                "option2": "Tự do",
+                "option3": "Bình đẳng",
+                "option4": "Dân chủ",
+                "ans": 1
+            },
+            {
+                "question": "Chủ nghĩa Mác-Lênin đóng vai trò gì trong tư tưởng Hồ Chí Minh?",
+                "option1": "Cơ sở lý luận quan trọng",
+                "option2": "Tinh hoa văn hóa nhân loại",
+                "option3": "Giá trị truyền thống",
+                "option4": "Nguồn cảm hứng cách mạng",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh ra đi tìm đường cứu nước vào năm nào?",
+                "option1": "1900",
+                "option2": "1911",
+                "option3": "1920",
+                "option4": "1930",
+                "ans": 2
+            },
+            {
+                "question": "Trước năm 1911, tư tưởng của Hồ Chí Minh chủ yếu tập trung vào điều gì?",
+                "option1": "Tư tưởng cách mạng vô sản",
+                "option2": "Tư tưởng yêu nước",
+                "option3": "Tư tưởng xã hội chủ nghĩa",
+                "option4": "Tư tưởng độc lập dân tộc",
+                "ans": 2
+            },
+            {
+                "question": "Năm nào Hồ Chí Minh xác định cách mạng vô sản là con đường giải phóng dân tộc?",
+                "option1": "1911",
+                "option2": "1917",
+                "option3": "1920",
+                "option4": "1930",
+                "ans": 3
+            },
+            {
+                "question": "Theo Hồ Chí Minh, vận dụng chủ nghĩa Mác - Lênin cần phải thực hiện như thế nào?",
+                "option1": "Phù hợp với từng hoàn cảnh, từng đối tượng",
+                "option2": "Trung thành tuyệt đối với chủ nghĩa Mác - Lênin",
+                "option3": "Đảm bảo tính chính xác",
+                "option4": "Kế thừa chủ nghĩa Mác - Lênin",
+                "ans": 1
+            },
+            {
+                "question": "\"Dù phải đốt cháy cả dãy Trường Sơn cũng phải giành cho được độc lập\" câu nói đó của Hồ Chí Minh vào thời gian nào?",
+                "option1": "Tháng 5-1941",
+                "option2": "Tháng 9-1945",
+                "option3": "Tháng 8-1945",
+                "option4": "Tháng 12-1946",
+                "ans": 3
+            },
+            {
+                "question": "Cách mạng Tháng Tám năm 1945 gắn liền với tư tưởng nào của Hồ Chí Minh?",
+                "option1": "Chủ nghĩa xã hội",
+                "option2": "Độc lập dân tộc",
+                "option3": "Tự do, bình đẳng",
+                "option4": "Phát triển kinh tế",
+                "ans": 2
+            },
+            {
+                "question": "Giai đoạn 1946 - 1954, Hồ Chí Minh đã làm gì sau Cách mạng Tháng Tám?",
+                "option1": "Tuyên ngôn độc lập",
+                "option2": "Tham gia kháng chiến chống Nhật",
+                "option3": "Lãnh đạo cuộc kháng chiến chống Pháp",
+                "option4": "Khởi nghĩa Nam Kỳ",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh lãnh đạo hai nhiệm vụ chiến lược nào sau năm 1954?",
+                "option1": "Xây dựng miền Bắc và cách mạng ở miền Nam",
+                "option2": "Kháng chiến chống Nhật và chống Pháp",
+                "option3": "Cải cách ruộng đất và phát triển kinh tế",
+                "option4": "Đấu tranh ngoại giao và bảo vệ lãnh thổ",
+                "ans": 1
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh có tính cách mạng vì luôn hướng tới điều gì?",
+                "option1": "Xóa bỏ giai cấp",
+                "option2": "Thay đổi và giải phóng dân tộc",
+                "option3": "Phát triển kinh tế",
+                "option4": "Bảo vệ lãnh thổ",
+                "ans": 2
+            },
+            {
+                "question": "Giá trị nào được Hồ Chí Minh đề cao trong tư tưởng của mình?",
+                "option1": "Chủ nghĩa tập trung",
+                "option2": "Giá trị con người",
+                "option3": "Chủ nghĩa thực dân",
+                "option4": "Quyền sở hữu cá nhân",
+                "ans": 2
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh luôn lấy gì làm trung tâm của mọi hoạt động?",
+                "option1": "Con người",
+                "option2": "Kinh tế",
+                "option3": "Tự do",
+                "option4": "Bình đẳng",
+                "ans": 1
+            },
+            {
+                "question": "\"Công nông là gốc của cách mệnh, còn học trò, nhà buôn nhỏ, điền chủ nhỏ là bầu bạn cách mệnh của công nông\" được Nguyễn Ái Quốc đề cập đến điều gì?",
+                "option1": "Phương pháp cách mạng",
+                "option2": "Lực lượng cách mạng",
+                "option3": "Nhiệm vụ của cách mạng",
+                "option4": "Mục tiêu của cách mạng",
+                "ans": 2
+            },
+            {
+                "question": "Chủ nghĩa nào là cơ sở lý luận cho tư tưởng Hồ Chí Minh?",
+                "option1": "Chủ nghĩa tư bản",
+                "option2": "Chủ nghĩa xã hội",
+                "option3": "Chủ nghĩa Mác-Lênin",
+                "option4": "Chủ nghĩa dân chủ",
+                "ans": 3
+            },
+            {
+                "question": "Theo Hồ Chí Minh, khát vọng lớn nhất của dân tộc thuộc địa là gì?",
+                "option1": "Cơm áo và ruộng đất",
+                "option2": "Hòa bình và ruộng đất",
+                "option3": "Quyền bình đẳng",
+                "option4": "Độc lập, tự do",
+                "ans": 4
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh luôn hướng tới sự giải phóng khỏi điều gì?",
+                "option1": "Tham nhũng",
+                "option2": "Áp bức, bất công",
+                "option3": "Xâm lược",
+                "option4": "Tự do kinh tế",
+                "ans": 2
+            },
+            {
+                "question": "Tư tưởng Hồ Chí Minh có giá trị gì đối với thế giới?",
+                "option1": "Thúc đẩy phong trào dân tộc",
+                "option2": "Thúc đẩy toàn cầu hóa",
+                "option3": "Hỗ trợ kinh tế châu Âu",
+                "option4": "Khai phá thương mại quốc tế",
+                "ans": 1
+            },
+            {
+                "question": "Cuốn \"Đường Cách mệnh\" tập hợp các bài giảng của Nguyễn Ái Quốc tại các khoá huấn luyện chính trị được xuất bản tại đâu?",
+                "option1": "Pháp",
+                "option2": "Liên-xô",
+                "option3": "Việt Nam",
+                "option4": "Trung Quốc",
+                "ans": 4
+            },
+            {
+                "question": "Theo Hồ Chí Minh độc lập, tự do là gì?",
+                "option1": "Quyền thiêng liêng của tất cả các dân tộc",
+                "option2": "Quyền bất khả xâm phạm của tất cả các dân tộc",
+                "option3": "Quyền tự quyết dân tộc",
+                "option4": "Quyền thiêng liêng và bất khả xâm phạm của tất cả các dân tộc",
+                "ans": 4
+            },
+            {
+                "question": "Tư tưởng yêu nước của Hồ Chí Minh được hình thành từ đâu?",
+                "option1": "Gia đình và quê hương",
+                "option2": "Trường học phương Tây",
+                "option3": "Các phong trào cách mạng quốc tế",
+                "option4": "Thực tiễn chính trị của Liên Xô",
+                "ans": 1
+            },
+            {
+                "question": "Trong tư tưởng Hồ Chí Minh, tư tưởng bạo lực cách mạng luôn thống nhất với yếu tố nào?",
+                "option1": "Tư tưởng nhân đạo hòa bình",
+                "option2": "Cách mạng không ngừng",
+                "option3": "Tư tưởng đấu tranh ngoại giao",
+                "option4": "Đấu tranh chính trị",
+                "ans": 1
+            },
+            {
+                "question": "Phong trào công nhân đóng vai trò gì trong tư tưởng Hồ Chí Minh?",
+                "option1": "Tạo tiền đề cho cách mạng vô sản",
+                "option2": "Khởi đầu cho phong trào cách mạng toàn cầu",
+                "option3": "Đề cao tinh thần công nghiệp hóa",
+                "option4": "Thúc đẩy phát triển kinh tế",
+                "ans": 1
+            },
+            {
+                "question": "Vấn đề dân tộc trong tư tưởng Hồ Chí Minh là sự kết hợp nhuần nhuyễn giữa:",
+                "option1": "Dân tộc và giai cấp",
+                "option2": "Độc lập dân tộc và chủ nghĩa xã hội",
+                "option3": "Chủ nghĩa yêu nước và chủ nghĩa quốc tế",
+                "option4": "Cách mạng thuộc địa với cách mạng vô sản",
+                "ans": 2
+            },
+            {
+                "question": "Trong tư tưởng Hồ Chí Minh, giải phóng con người trước hết là gì?",
+                "option1": "Giải phóng quần chúng lao động",
+                "option2": "Giải phóng giai cấp công nhân",
+                "option3": "Giải phóng giai cấp nông dân",
+                "option4": "Giải phóng dân tộc",
+                "ans": 1
+            }
+        ],
+        "chuong3" : [
+            {
+                "question": "HCM đánh giá nhiệm vụ tiến lên Chủ nghĩa xã hội của Việt Nam trong thời kỳ quá độ như thế nào?",
+                "option1": "Nhanh chóng",
+                "option2": "Dứt khoát",
+                "option3": "Dần dần",
+                "option4": "Chậm mà chắc",
+                "ans": 3
+            },
+            {
+                "question": "4 nhiệm vụ chính của thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam",
+                "option1": "Chính trị, tôn giáo, kinh tế, văn hóa",
+                "option2": "Tôn giáo, chính trị, kinh tế, văn hóa",
+                "option3": "Chính trị, kinh tế, văn hóa, quan hệ xã hội",
+                "option4": "Chính trị, kinh tế, tôn giáo, quan hệ xã hội",
+                "ans": 3
+            },
+            {
+                "question": "Theo HCM nhiệm vụ quan trọng nhất của thời kỳ quá độ là gì?",
+                "option1": "Cải cách cải tạo nền kinh tế cũ, xây dựng nền kinh tế có công nghiệp và nông nghiệp hiện đại",
+                "option2": "Cải cách cải tạo nền kinh tế cũ, xây dựng nền kinh tế công nghiệp hóa điện đại hóa",
+                "option3": "Cải cách cải tạo nền kinh tế cũ, xây dựng nền kinh tế thị trường",
+                "option4": "Cải cách cải tạo nền kinh tế cũ, xây dựng nền kinh tế độc lập không dựa dẫm",
+                "ans": 1
+            },
+            {
+                "question": "Nguồn gốc nào sau đây quyết định tư tưởng Hồ Chí Minh:",
+                "option1": "Tư tưởng Tam dân của Tôn Trung Sơn",
+                "option2": "Tư tưởng của Khổng tử",
+                "option3": "Tư tưởng của chủ nghĩa Mác-Lênin",
+                "option4": "Tư tưởng của Giêsu",
+                "ans": 3
+            },
+            {
+                "question": "Nguyễn Tất Thành ra đi tìm đường cứu nước tại bến cảng Nhà Rồng - Sài Gòn vào thời gian nào?",
+                "option1": "5/6/1911",
+                "option2": "6/5/1911",
+                "option3": "5/6/1910",
+                "option4": "6/5/1912",
+                "ans": 1
+            },
+            {
+                "question": "Theo tư tưởng Hồ Chí Minh, 2 nhiệm vụ chống đế quốc và phong kiến",
+                "option1": "Phải được thực hiện đồng thời, khăng khít với nhau, nương tựa vào nhau",
+                "option2": "Thì nhiệm vụ chống phong kiến, mang lại ruộng đất cho nông dân được đặt lên hàng đầu",
+                "option3": "Thì nhiệm vụ chống đế quốc, giải phóng dân tộc được đặt lên hàng đầu",
+                "option4": "Là nhất loạt ngang nhau",
+                "ans": 3
+            },
+            {
+                "question": "Bác dặn đối với tàn dư chế độ cũ thì cần làm như thế nào?",
+                "option1": "Phải thay đổi triệt để những nếp sống, thói quen, ý nghĩ và thành kiến có gốc rễ sâu xa hàng ngàn năm.",
+                "option2": "Tiêu diệt",
+                "option3": "Phải đánh thắng kẻ địch bên trong chủ nghĩa cá nhân như một thứ vi trùng độc hại, sản sinh ra bệnh tham lam, kiêu ngạo, bệnh háo danh, bệnh vô tổ chức, vô kỷ luật",
+                "option4": "B và C đều đúng",
+                "ans": 1
+            },
+            {
+                "question": "Quan niệm của Bác về chủ nghĩa Mác-lênin:",
+                "option1": "Là khoa học về cách mạng của quần chúng bị áp bức bóc lột",
+                "option2": "Là khoa học về sự thắng lợi của CNXH ở tất cả các nước",
+                "option3": "Là khoa học về xây dựng CNXH",
+                "option4": "Tất cả đều đúng",
+                "ans": 4
+            },
+            {
+                "question": "Nguyên tắc cơ bản trong nghiên cứu tư tưởng Hồ Chí Minh là:",
+                "option1": "Lý luận gắn liền với thực tiễn",
+                "option2": "Thống nhất giữa tính Đảng và tính thực tiễn",
+                "option3": "Thống nhất giữa tính khoa học và thực tiễn",
+                "option4": "Quan điểm gắn liền với thực tiễn",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh viết: “Trong cuộc đấu tranh gian khổ chống kẻ thù của giai cấp và của dân tộc, cần phải dùng Bạo lực cách mạng chống lại bạo lực phản cách mạng, giành lấy chính quyền và bảo vệ chính quyền”. Câu trích nêu trên Hồ Chí Minh muốn đề cập tới vấn đề gì trong quan điểm về Cách mạng giải phóng dân tộc?",
+                "option1": "Bạo lực cách mạng là phương thức phổ biến",
+                "option2": "Hình thái của bạo lực cách mạng",
+                "option3": "Cách thức thể hiện của bạo lực cách mạng",
+                "option4": "Tính tất yếu của bạo lực cách mạng",
+                "ans": 4
+            },
+            {
+                "question": "Trong các luận điểm sau đây, luận điểm nào của Hồ Chí Minh?",
+                "option1": "“Tất cả mọi người đều sinh ra có quyền bình đẳng. Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy, có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc\"",
+                "option2": "“Người ta sinh ra tự do và bình đẳng về quyền lợi và phải luôn luôn được tự do và bình đẳng về quyền lợi”.",
+                "option3": "“Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do”.",
+                "option4": "“Quyền tự nhiên của con người là quyền sống, quyền tự do, quyền tư hữu\"",
+                "ans": 3
+            },
+            {
+                "question": "Theo chủ tịch Hồ Chí Minh, đâu là những động lực hàng đầu của chủ nghĩa xã hội.",
+                "option1": "Lợi ích của dân, dân chủ của dân.",
+                "option2": "Lợi ích của dân, hoạt động của tổ chức, sức mạnh đoàn kết toàn dân.",
+                "option3": "Lợi ích của dân, dân chủ của dân, sức mạnh đoàn kết toàn dân.",
+                "option4": "Lợi ích của dân, sức mạnh đoàn kết toàn dân.",
+                "ans": 3
+            },
+            {
+                "question": "Luận điểm: “Cách mệnh trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp ở mọi nơi. Đảng có vững, cách mệnh mới thành công, cũng như người cầm lái có vững thuyền mới chạy” được Hồ Chí Minh đưa ra trong tác phẩm nào?",
+                "option1": "Bản án chế độ thực dân Pháp",
+                "option2": "Di chúc",
+                "option3": "Cương lĩnh chính trị đầu tiên",
+                "option4": "Đường cách mệnh",
+                "ans": 4
+            },
+            {
+                "question": "Điền vào chỗ trống: “Chúng ta thà hy sinh tất cả, chứ (…) không chịu mất nước, (…) không chịu làm nô lệ”.",
+                "option1": "nhất quyết - nhất quyết",
+                "option2": "nhất định - nhất định",
+                "option3": "nhất trí - nhất trí",
+                "option4": "nhất loạt - nhất loạt",
+                "ans": 2
+            },
+            {
+                "question": "Luận điểm: “Tổ quốc ta nhất định sẽ thống nhất. Đồng bào Nam Bắc nhất định sẽ sum họp một nhà” được trích trong tác phẩm nào của Hồ Chí Minh?",
+                "option1": "Đường cách mệnh",
+                "option2": "Tuyên ngôn độc lập",
+                "option3": "Sửa đổi lối làm việc",
+                "option4": "Di chúc",
+                "ans": 4
+            },
+            {
+                "question": "Cuộc cách mạng nào thắng lợi đã ảnh hưởng sâu sắc tới Hồ Chí Minh trong việc lựa chọn con đường cứu nước, giải phóng dân tộc?",
+                "option1": "Cách mạng Tháng Mười Nga",
+                "option2": "Cách mạng Tân Hợi",
+                "option3": "Cách mạng Mỹ",
+                "option4": "Cách mạng Pháp",
+                "ans": 1
+            },
+            {
+                "question": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc ở Việt Nam phải dựa trên lực lượng nào?",
+                "option1": "Lực lượng đại đoàn kết toàn dân",
+                "option2": "Dựa vào liên minh giữa công nhân với tư sản",
+                "option3": "Dựa vào giai cấp công nhân",
+                "option4": "Dựa vào liên minh giữa nông dân và địa chủ",
+                "ans": 1
+            },
+            {
+                "question": "Con đường Cách mạng vô sản ở Việt Nam theo Hồ Chí Minh là:",
+                "option1": "Giải phóng giai cấp - giải phóng dân tộc - giải phóng xã hội - giải phóng con người",
+                "option2": "Giải phóng dân tộc - giải phóng xã hội - giải phóng giai cấp - giải phóng con người",
+                "option3": "Giải phóng dân tộc - giải phóng giai cấp - giải phóng xã hội - giải phóng con người",
+                "option4": "Giải phóng giai cấp - giải phóng xã hội - giải phóng dân tộc - giải phóng con người",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh ở Việt Nam và các nước thuộc địa cần tiến hành cuộc cách mạng nào trước?",
+                "option1": "Cách mạng giải phóng giai cấp",
+                "option2": "Cách mạng giải phóng dân tộc",
+                "option3": "Cách mạng giải phóng con người một cách toàn diện",
+                "option4": "Cách mạng xã hội chủ nghĩa",
+                "ans": 2
+            }
+        ],        
         "chuong4" : [
             {
                 "question": "Theo Hồ Chí Minh, tập trung trong Đảng có nghĩa là thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, tất cả đảng viên chấp hành:",
@@ -153,8 +791,169 @@
                 "option4": "Đoàn thể lãnh đạo",
                 "ans": 2
             }
-        ]
-        ,
+        ],
+        "chuong5" : [
+            {
+                "question": "Luận điểm sau đây Hồ Chí Minh nói đến truyền thống nào của dân tộc Việt Nam: “Dân ta xin nhớ chữ đồng: Đồng tình, đồng sức, đồng lòng, đồng minh!”",
+                "option1": "Truyền thống yêu nước",
+                "option2": "Truyền thống nhân nghĩa",
+                "option3": "Truyền thống đoàn kết",
+                "option4": "Truyền thống lạc quan, yêu đời",
+                "ans": 3
+            },
+            {
+                "question": "Nền tảng của khối đại đoàn kết toàn dân tộc là?",
+                "option1": "Công nhân, nông dân, tư sản",
+                "option2": "Nông dân, học trò, nhà buôn",
+                "option3": "Công nhân, nông dân và trí thức",
+                "option4": "Công nhân, nông dân, tư sản, tiểu tư sản",
+                "ans": 3
+            },
+            {
+                "question": "Điều kiện căn bản nhất để thực hiện đại đoàn kết toàn dân tộc là?",
+                "option1": "Tuyên truyền chủ trương, đường lối của Đảng và chính sách, pháp luật của Nhà nước",
+                "option2": "Nội dung và phương thức hoạt động của Mặt trận dân tộc thống nhất phải chủ động, linh hoạt",
+                "option3": "Kế thừa truyền thống yêu nước, nhân nghĩa, đoàn kết của dân tộc",
+                "option4": "Mở rộng dân chủ trong đời sống xã hội",
+                "ans": 3
+            },
+            {
+                "question": "Theo Hồ Chí Minh, thực hiện đoàn kết quốc tế nhằm?",
+                "option1": "Mở rộng sự hiểu biết, tôn trọng lẫn nhau",
+                "option2": "Đảm bảo tính định hướng xã hội chủ nghĩa của sự phát triển đất nước",
+                "option3": "Kết hợp sức mạnh dân tộc với sức mạnh thời đại",
+                "option4": "Đa dạng hóa quan hệ quốc tế",
+                "ans": 3
+            },
+            {
+                "question": "Phương án nào sau đây là nguyên tắc hoạt động của Mặt trận dân tộc thống nhất?",
+                "option1": "Kỷ luật nghiêm minh, tự giác",
+                "option2": "Đoàn kết lâu dài, chặt chẽ, đoàn kết thật sự, chân thành, thân ái giúp nhau cùng tiến bộ",
+                "option3": "Tập thể lãnh đạo, cá nhân phụ trách",
+                "option4": "Tập trung dân chủ",
+                "ans": 2
+            },
+            {
+                "question": "Lựa chọn phương án đúng điền vào dấu “…”: “Dễ … lần không dân cũng chịu, Khó … lần dân liệu cũng xong”",
+                "option1": "trăm / vạn",
+                "option2": "trăm/ tram",
+                "option3": "trăm/ nghìn",
+                "option4": "mười/ trăm",
+                "ans": 4
+            },
+            {
+                "question": "Lựa chọn phương án đúng điền vào dấu “…”: “Đoàn kết trong Mặt trận Việt Minh, nhân dân ta đã làm Cách mạng Tháng Tám thành công, lập nên nước…”",
+                "option1": "Việt Nam Cách mạng Đồng chí hội",
+                "option2": "Việt Nam độc lập đồng minh",
+                "option3": "Việt Nam Dân chủ cộng hòa",
+                "option4": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh dùng hình tượng gì để nói về đại đoàn kết toàn dân tộc?",
+                "option1": "Bàn tay",
+                "option2": "Anh em một nhà",
+                "option3": "Giai cấp",
+                "option4": "Khối óc",
+                "ans": 1
+            },
+            {
+                "question": "Để đoàn kết với các lực lượng tiến bộ trên thế giới, Hồ Chí Minh giương cao ngọn cờ?",
+                "option1": "Hòa bình trong công lý",
+                "option2": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội",
+                "option3": "Độc lập, tự do và quyền bình đẳng giữa các dân tộc",
+                "option4": "Dân chủ, văn minh",
+                "ans": 1
+            },
+            {
+                "question": "Một trong những lực lượng của đoàn kết quốc tế trong tư tưởng Hồ Chí Minh là?",
+                "option1": "Hiệp hội các nước Đông Nam Á",
+                "option2": "Liên minh các lực lượng dân chủ thế giới",
+                "option3": "Các lực lượng tiến bộ, yêu chuộng hòa bình, tự do, công lý",
+                "option4": "Hội liên hiệp các dân tộc bị áp bức",
+                "ans": 3
+            },
+            {
+                "question": "Phương án nào sau đây là nguyên tắc hoạt động của Mặt trận dân tộc thống nhất?",
+                "option1": "Kỷ luật nghiêm minh, tự giác",
+                "option2": "Đoàn kết lâu dài, chặt chẽ, đoàn kết thật sự, chân thành, thân ái giúp nhau cùng tiến bộ",
+                "option3": "Tập thể lãnh đạo, cá nhân phụ trách",
+                "option4": "Tập trung dân chủ",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh dùng khái niệm “dân” để chỉ?",
+                "option1": "Những người bị áp bức, bóc lột",
+                "option2": "Giai cấp đông đảo nhất trong xã hội",
+                "option3": "Giai cấp tiến bộ của xã hội",
+                "option4": "“Mọi con dân nước Việt”, mỗi một người con Rồng cháu Tiên",
+                "ans": 4
+            },
+            {
+                "question": "Đại đoàn kết toàn dân tộc trong tư tưởng Hồ Chí Minh là?",
+                "option1": "Phải coi trọng xây dựng tình đoàn kết với các nước láng giềng",
+                "option2": "Đoàn kết dân tộc phải gắn với đoàn kết quốc tế",
+                "option3": "Mục tiêu, nhiệm vụ hàng đầu của cách mạng",
+                "option4": "Phải đoàn kết được giai cấp công nhân và nông dân",
+                "ans": 3
+            },
+            {
+                "question": "Vì sao Hồ Chí Minh chỉ ra cần phải đoàn kết với phong trào đấu tranh giải phóng dân tộc?",
+                "option1": "Do âm mưu chia rẽ dân tộc của các nước đế quốc",
+                "option2": "Do cùng hoàn cảnh, điều kiện giữa các dân tộc",
+                "option3": "Do yêu cầu của quốc tế",
+                "option4": "Do đòi hỏi của phong trào hòa bình, dân chủ thế giới",
+                "ans": 1
+            },
+            {
+                "question": "Theo Hồ Chí Minh, nguyên tắc đoàn kết quốc tế là:",
+                "option1": "Trên cơ sở thống nhất mục tiêu và lợi ích, có lý, có tình; trên cơ sở độc lập tự chủ, tự lực tự cường",
+                "option2": "Có chung những điểm tương đồng; tôn trọng sự bình đẳng giữa các quốc gia, dân tộc",
+                "option3": "Giương cao các ngọn cờ công lý và nguyên tắc của chủ nghĩa quốc tế vô sản",
+                "option4": "Trước hết là phải đoàn kết với các đảng, phong trào cộng sản và công nhân quốc tế",
+                "ans": 1
+            },
+            {
+                "question": "Chọn cụm từ đúng điền vào chỗ trống trong câu viết sau đây của Hồ Chí Minh: \"Toàn quốc đồng bào hãy đứng dậy.... mà tự giải phóng cho ta\".",
+                "option1": "Dựa vào sự giúp đỡ quốc tế",
+                "option2": "Đem sức ta",
+                "option3": "Dựa vào sự đoàn kết toàn dân",
+                "option4": "dưới sự lãnh đạo của Đảng",
+                "ans": 2
+            },
+            {
+                "question": "Trong kháng chiến chống Mĩ, Hồ Chí Minh đã thành công trong việc xây dựng loại mặt trận nào?",
+                "option1": "Mặt trận dân tộc thống nhất",
+                "option2": "Mặt trận phản đế",
+                "option3": "Mặt trận phản phong",
+                "option4": "Mặt trận dân chủ Đông Dương",
+                "ans": 1
+            },
+            {
+                "question": "Sức mạnh của cách mạng giải phóng dân tộc Việt Nam trong tư tưởng Hồ Chí Minh là:",
+                "option1": "Sức mạnh liên minh chiến đấu giữa lao động ở các thuộc địa và lao động thuộc địa với vô sản chính quốc",
+                "option2": "Sức mạnh của giai cấp vô sản, cách mạng vô sản và Đảng Cộng sản",
+                "option3": "Sức mạnh của 3 dòng thác cách mạng và tiến bộ khoa học công nghệ",
+                "option4": "Sức mạnh của khối đại đoàn kết toàn dân",
+                "ans": 4
+            },
+            {
+                "question": "Điền cụm từ thích hợp để hoàn chỉnh đoạn trích sau đây: “Chính sách ngoại giao của Chính phủ chỉ có một điều tức là thân thiện với……trên thế giới để giữ gìn hòa bình”.",
+                "option1": "Các nước xã hội chủ nghĩa",
+                "option2": "Các nước lớn",
+                "option3": "Tất cả các nước dân chủ",
+                "option4": "Mọi nước",
+                "ans": 3
+            },
+            {
+                "question": "Tên tổ chức đoàn kết toàn dân tộc do Hội nghị Trung ương Đảng lần VI (11/1939) xác định là:",
+                "option1": "Mặt trận dân tộc giải phóng",
+                "option2": "Mặt trận dân chủ Đông Dương",
+                "option3": "Mặt trận dân tộc thống nhất phản đế Đông Dương",
+                "option4": "Mặt trận Việt Minh",
+                "ans": 2
+            }
+        ],        
         "chuong6.1.1" : [
             {
                 "question": "Hồ Chí Minh chủ trương kết hợp văn hóa dân tộc với điều gì?",
