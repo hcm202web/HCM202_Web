@@ -221,11 +221,11 @@ const Chapter4Page: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white border border-gray-200 rounded-full w-44 h-44 md:w-48 md:h-48 flex justify-center items-center text-center shadow-lg z-10 overflow-hidden p-4">
-            <h2 className="text-lg md:text-xl font-bold leading-tight md:leading-normal text-center">
-              Tư tưởng <br /> Hồ Chí Minh về Đảng và Nhà nước
-            </h2>
-          </div>
+          <div className="bg-white border border-gray-200 rounded-full w-64 h-64 md:w-72 md:h-72 flex justify-center items-center text-center shadow-lg z-10 overflow-hidden p-4">
+  <h2 className="text-xl md:text-2l font-bold leading-tight md:leading-normal text-center">
+    Tư tưởng <br />Hồ Chí Minh về<br/>Đảng Cộng Sản Việt Nam và Nhà nước<br/>của dân do dân vì dân
+  </h2>
+</div>
           <div className="flex flex-col justify-center items-start ml-24">
             {/* Third Box */}
             <div
