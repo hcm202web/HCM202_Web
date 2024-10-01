@@ -4,6 +4,7 @@ import tutuong from "../assets/chuong4/tutuong.jpg";
 import hinh2 from "../assets/chuong4/2.png";
 import hinh3 from "../assets/chuong4/3.png";
 import hinh4 from "../assets/chuong4/4.png";
+import { useNavigate } from "react-router-dom";
 
 
 const Chapter4Page: React.FC = () => {
@@ -70,7 +71,7 @@ const Chapter4Page: React.FC = () => {
             <li style="margin-bottom: 8px;">Phải là những người luôn phòng và chống các tiêu cực.</li>
             </ul>
         `,
-          image: hinh2,
+          image: [hinh2],
 
         });
         break;
@@ -117,7 +118,7 @@ const Chapter4Page: React.FC = () => {
             </li>
             </ul>
             `,
-          image: hinh3,
+          image: [hinh3],
 
         });
         break;
@@ -156,7 +157,7 @@ const Chapter4Page: React.FC = () => {
                 </li>
                 </ul>
           `,
-          image: hinh4,
+          image: [hinh4],
 
         });
         break;
