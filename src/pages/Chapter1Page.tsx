@@ -11,7 +11,7 @@ import phuongphapImage from '../assets/chuong1/phuongphapchuong1.png'; const Cha
     };
 
     const handleTestButtonClick = () => {
-        console.log("Navigating to the test...");
+        console.log("Navigating to the test..");
     };
 
     return (
