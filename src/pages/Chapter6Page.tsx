@@ -1,4 +1,5 @@
-import React, { useState, useRef } from 'react';
+
+import React, { useState } from 'react';
 import hochiminhImage from '../assets/chuong6/test.jpg'; 
 import vanhoa1 from '../assets/chuong6/Văn Hóa (1).png';
 import vanhoa2 from '../assets/chuong6/Văn Hóa (2).png';
@@ -17,37 +18,14 @@ import { useNavigate } from 'react-router-dom';
 const Chapter6Page: React.FC = () => {
     const [openSection, setOpenSection] = useState<number | null>(null);
 
-    // Tạo ref cho hình ảnh đầu tiên trong từng section
-    const firstImageRefs = {
-        1: useRef<HTMLImageElement>(null),
-        2: useRef<HTMLImageElement>(null),
-        3: useRef<HTMLImageElement>(null),
-        4: useRef<HTMLImageElement>(null),
-    };
-
-    // Hàm để cuộn đến hình ảnh đầu tiên trong section
-    const scrollToFirstImage = (sectionIndex: number) => {
-        const ref = firstImageRefs[sectionIndex];
-        if (ref.current) {
-            ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    };
-
     const toggleSection = (sectionIndex: number) => {
-        if (openSection === sectionIndex) {
-            setOpenSection(null); // Đóng section nếu đã mở
-        } else {
-            setOpenSection(sectionIndex);
-            // Cuộn đến hình ảnh đầu tiên khi section được mở
-            setTimeout(() => scrollToFirstImage(sectionIndex), 100); // Sử dụng timeout nhỏ để đảm bảo hình ảnh đã render
-        }
+        setOpenSection(openSection === sectionIndex ? null : sectionIndex); 
     };
 
     const navigate = useNavigate();
-
     const handleTestButtonClick = () => {
         console.log("Navigating to the test...");
-        navigate('/Quiz/chuong6.1.1');  // Điều hướng tới trang quiz
+        navigate('/Quiz/chuong6.1.1');
     };
 
     return (
@@ -56,11 +34,11 @@ const Chapter6Page: React.FC = () => {
                 Chương 6
             </div>
             <div className='flex flex-col justify-center items-center text-center mt-2 text-4xl md:text-5xl lg:text-6xl text-[#8B4513] px-5 md:px-10 lg:px-20'>
-                Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người
+            Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người
             </div>
-
+        
             <div className="flex justify-center mt-8">
-                <img src={hochiminhImage} alt="Hồ Chí Minh" className="w-full max-w-5xl h-auto rounded-lg shadow-lg" />
+            <img src={hochiminhImage} alt="Hồ Chí Minh" className="w-full max-w-5xl h-auto rounded-lg shadow-lg"/>
             </div>
             <div className="mt-10 w-full max-w-7xl mx-auto space-y-4">
                 <div 
@@ -69,16 +47,11 @@ const Chapter6Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-blue-800 text-center">Tư tưởng Hồ Chí Minh về văn hóa</h3>
                     {openSection === 1 && (
                         <div className="mt-4 border-t-2 border-blue-200 pt-4">                      
-                            <img 
-                                ref={firstImageRefs[1]}  // Gắn ref cho hình ảnh đầu tiên
-                                src={vanhoa1} 
-                                alt="Khai niem" 
-                                className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" 
-                            />
-                            <img src={vanhoa2} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
-                            <img src={vanhoa3} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
-                            <img src={vanhoa4} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
-                            <img src={vanhoa5} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
+                            <img src={vanhoa1} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={vanhoa2} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={vanhoa3} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={vanhoa4} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={vanhoa5} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
@@ -88,14 +61,9 @@ const Chapter6Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-pink-800 text-center">Tư tưởng Hồ Chí Minh về đạo đức</h3>
                     {openSection === 2 && (
                         <div className="mt-4 border-t-2 border-pink-200 pt-4">                                                       
-                            <img 
-                                ref={firstImageRefs[2]}  // Gắn ref cho hình ảnh đầu tiên
-                                src={daoduc1} 
-                                alt="Khai niem" 
-                                className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" 
-                            />
-                            <img src={daoduc2} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
-                            <img src={daoduc3} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
+                            <img src={daoduc1} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={daoduc2} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={daoduc3} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
@@ -105,14 +73,9 @@ const Chapter6Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-red-800 text-center">Tư tưởng Hồ Chí Minh về con người</h3>
                     {openSection === 3 && (
                         <div className="mt-4 border-t-2 border-red-200 pt-4">                                                  
-                            <img 
-                                ref={firstImageRefs[3]}  // Gắn ref cho hình ảnh đầu tiên
-                                src={connguoi1} 
-                                alt="Khai niem" 
-                                className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" 
-                            />
-                            <img src={connguoi2} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
-                            <img src={connguoi3} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" />
+                            <img src={connguoi1} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={connguoi2} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
+                            <img src={connguoi3} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
@@ -122,12 +85,7 @@ const Chapter6Page: React.FC = () => {
                     <h3 className="text-xl font-semibold text-green-800 text-center">Xây Dựng Văn Hóa, Đạo Đức, Con Người Việt Nam Hiện Nay Theo Tư Tưởng Hồ Chí Minh</h3>
                     {openSection === 4 && (
                         <div className="mt-4 border-t-2 border-green-200 pt-4">                   
-                            <img 
-                                ref={firstImageRefs[4]}  // Gắn ref cho hình ảnh đầu tiên
-                                src={xaydung} 
-                                alt="Khai niem" 
-                                className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg" 
-                            />
+                            <img src={xaydung} alt="Khai niem" className="w-3/4 max-w-4xl h-auto mx-auto rounded-lg shadow-lg"/>
                         </div>
                     )}
                 </div>
