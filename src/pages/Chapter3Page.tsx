@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 declare global {
     interface Window {
@@ -13,9 +13,11 @@ const Chapter3Page: React.FC = () => {
         // Kiểm tra nếu SDK của Facebook đã được tải
         if (window.FB) {
           window.FB.XFBML.parse();
+          console.log(" run ===========================================");
         }
-      }, []);
-
+        setLinkFB("https://www.facebook.com/61566550163263/videos/440058908540797");
+      }, [window.FB])
+      const [linkFB, setLinkFB] = useState("https://www.facebook.com/61566550163263/videos/440058908540797");
     return (
         <div className="w-full h-full bg-gradient-to-b from-yellow-50 to-gray-100 p-6">
             <div className="flex flex-col justify-center items-center w-full mt-5 text-4xl md:text-5xl lg:text-6xl text-[#8B4513]">
