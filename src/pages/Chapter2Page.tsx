@@ -34,7 +34,7 @@ const Chapter2Page: React.FC = () => {
             href="https://www.facebook.com/profile.php?id=61566550163263"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 underline hover:text-blue-800 ml-2"
+            className="text-blue-600 underline hover:text-blue-700 ml-2"
           >
             Nhấn vào đây để theo dõi ngay!
           </a>{" "}

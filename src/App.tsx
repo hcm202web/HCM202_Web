@@ -15,7 +15,6 @@ import Chapter5Page from './pages/Chapter5Page';
 import Chapter6Page from './pages/Chapter6Page';
 import Header from './layout/Header';
 import QuizPage from './pages/QuizPage';
-
 const CatchAllRoute = () => {
   const location = useLocation();
   return <Navigate to={'/' + location.search} replace />;
@@ -28,6 +27,8 @@ function App() {
 
   return (
     <Router>
+
+      
       <Header />
       <Routes>
         <Route
