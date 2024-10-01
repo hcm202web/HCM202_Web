@@ -3,9 +3,7 @@ import hochiminhImage from '../assets/chuong1/hochiminh.png';
 import khainiemImage from '../assets/chuong1/khainiemchuong1.png';
 import ynghiaImage from '../assets/chuong1/ynghiahoctapchuong1.png'; 
 import doituongImage from '../assets/chuong1/doituongchuong1.png';
-import phuongphapImage from '../assets/chuong1/phuongphapchuong1.png'; 
-
-const Chapter1Page: React.FC = () => {
+import phuongphapImage from '../assets/chuong1/phuongphapchuong1.png'; const Chapter1Page: React.FC = () => {
     const [openSection, setOpenSection] = useState<number | null>(null);
 
     const toggleSection = (sectionIndex: number) => {
@@ -13,7 +11,7 @@ const Chapter1Page: React.FC = () => {
     };
 
     const handleTestButtonClick = () => {
-        console.log("Navigating to the test...");
+        console.log("Navigating to the test..");
     };
 
     return (

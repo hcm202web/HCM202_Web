@@ -1,18 +1,27 @@
 import React, { useState } from "react";
 import tutuong from "../assets/chuong4/tutuong.jpg";
+
 import hinh2 from "../assets/chuong4/2.png";
 import hinh3 from "../assets/chuong4/3.png";
 import hinh4 from "../assets/chuong4/4.png";
+
+
 const Chapter4Page: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const navigate = useNavigate();
   const handleTestButtonClick = () => {
     console.log("Navigating to the test...");
+    navigate('/Quiz/chuong4')
   };
 
   const [modalContent, setModalContent] = useState({
     title: "",
-    image: "",
+    image: [
+      'anh2',
+      'image2.jpg',
+      'image3.jpg',
+    ],
     description: "",
   });
 
@@ -62,6 +71,7 @@ const Chapter4Page: React.FC = () => {
             </ul>
         `,
           image: hinh2,
+
         });
         break;
       case "Box 2":
@@ -108,6 +118,7 @@ const Chapter4Page: React.FC = () => {
             </ul>
             `,
           image: hinh3,
+
         });
         break;
       case "Box 3":
@@ -146,6 +157,7 @@ const Chapter4Page: React.FC = () => {
                 </ul>
           `,
           image: hinh4,
+
         });
         break;
       default:
@@ -267,7 +279,7 @@ const Chapter4Page: React.FC = () => {
               dangerouslySetInnerHTML={{ __html: modalContent.description }}
             />
             <img
-              src={modalContent.image}
+              src={modalContent.image[0]}
               alt={modalContent.title}
               className="mb-4 w-full h-auto rounded-lg mx-auto"
             />
