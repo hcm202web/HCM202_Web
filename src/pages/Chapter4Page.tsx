@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import tutuong from "../assets/chuong4/tutuong.jpg";
-import anh2 from "../assets/chuong4/2.png"
-import anh3 from "../assets/chuong4/3.png"
-import anh4 from "../assets/chuong4/4.png"
+
+import hinh2 from "../assets/chuong4/2.png";
+import hinh3 from "../assets/chuong4/3.png";
+import hinh4 from "../assets/chuong4/4.png";
 import { useNavigate } from "react-router-dom";
+
+
 const Chapter4Page: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -68,7 +71,8 @@ const Chapter4Page: React.FC = () => {
             <li style="margin-bottom: 8px;">Phải là những người luôn phòng và chống các tiêu cực.</li>
             </ul>
         `,
-          image: [anh2],
+          image: [hinh2],
+
         });
         break;
       case "Box 2":
@@ -114,7 +118,8 @@ const Chapter4Page: React.FC = () => {
             </li>
             </ul>
             `,
-          image: [anh3],
+          image: [hinh3],
+
         });
         break;
       case "Box 3":
@@ -152,7 +157,8 @@ const Chapter4Page: React.FC = () => {
                 </li>
                 </ul>
           `,
-          image: [anh4],
+          image: [hinh4],
+
         });
         break;
       default:
@@ -228,11 +234,11 @@ const Chapter4Page: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white border border-gray-200 rounded-full w-44 h-44 md:w-48 md:h-48 flex justify-center items-center text-center shadow-lg z-10 overflow-hidden p-4">
-            <h2 className="text-lg md:text-xl font-bold leading-tight md:leading-normal text-center">
-              Tư tưởng <br /> Hồ Chí Minh về Đảng và Nhà nước
-            </h2>
-          </div>
+          <div className="bg-white border border-gray-200 rounded-full w-64 h-64 md:w-72 md:h-72 flex justify-center items-center text-center shadow-lg z-10 overflow-hidden p-4">
+  <h2 className="text-xl md:text-2l font-bold leading-tight md:leading-normal text-center">
+    Tư tưởng <br />Hồ Chí Minh về<br/>Đảng Cộng Sản Việt Nam và Nhà nước<br/>của dân do dân vì dân
+  </h2>
+</div>
           <div className="flex flex-col justify-center items-start ml-24">
             {/* Third Box */}
             <div

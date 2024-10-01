@@ -7,6 +7,7 @@ import phuongphapImage from '../assets/chuong1/phuongphapchuong1.png';
 import { useNavigate } from 'react-router-dom';
 
 const Chapter1Page: React.FC = () => {
+
     const [openSection, setOpenSection] = useState<number | null>(null);
 
     const toggleSection = (sectionIndex: number) => {
@@ -17,6 +18,7 @@ const Chapter1Page: React.FC = () => {
     const handleTestButtonClick = () => {
         console.log("Navigating to the test...");
         navigate('/Quiz/chuong1')
+
     };
 
     return (
