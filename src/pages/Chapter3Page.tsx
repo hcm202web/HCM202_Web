@@ -24,10 +24,11 @@ const Chapter3Page: React.FC = () => {
             <div className="flex flex-col justify-center items-center text-center mt-2 text-4xl md:text-5xl lg:text-6xl text-[#8B4513] px-5 md:px-10 lg:px-20">
                 Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
             </div>
-            <div className="flex justify-center mt-8" 
-                data-href="https://www.facebook.com/61566550163263/videos/440058908540797" 
-                data-width="10000" 
-                data-show-text="false">
+            <div className='flex flex-col justify-center items-center text-center mt-10'>
+            <iframe className='flex flex-col justify-center items-center text-center' src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61566550163263%2Fvideos%2F440058908540797%2F&show_text=false&width=560&t=0" width="1120" height="628" ></iframe>
+            </div>
+            <div className="flex justify-center mt-8 h-500 w-500" 
+                data-href="https://www.facebook.com/61566550163263/videos/440058908540797">
             </div>
             <div className="flex justify-center mt-8">
                 <button 
