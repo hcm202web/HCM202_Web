@@ -2,14 +2,159 @@
     "chapters": {
         "chuong4" : [
             {
-                "question": "Theo Hồ Chí Minh, tập trung trong Đảng có nghĩa là thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, tất cả đảng viên chấp hành",
+                "question": "Theo Hồ Chí Minh, tập trung trong Đảng có nghĩa là thiểu số phục tùng đa số, cấp dưới phục tùng cấp trên, tất cả đảng viên chấp hành:",
                 "option1": "Vô điều kiện nghị quyết của Tổng bí thư",
                 "option2": "Vô điều kiện nghị quyết của Chủ tịch nước",
                 "option3": "Vô điều kiện nghị quyết của Đảng",
                 "option4": "Vô điều kiện nghị quyết của Quốc hội",
+                "ans": 3
+            },
+            {
+                "question": "Trong một cách thể hiện khác về vấn đề 'Đảng của ai', theo Hồ Chí Minh Đảng là của:",
+                "option1": "Giai cấp",
+                "option2": "Dân tộc",
+                "option3": "Nhân loại",
+                "option4": "Nhân dân",
+                "ans": 2
+            },
+            {
+                "question": "Trong các yếu tố hình thành Đảng Cộng sản Việt Nam, đâu là yếu tố sáng tạo của Hồ Chí Minh?",
+                "option1": "Chủ nghĩa Mác - Lênin",
+                "option2": "Phong trào công nhân",
+                "option3": "Tư tưởng yêu nước truyền thống",
+                "option4": "Phong trào yêu nước",
+                "ans": 4
+            },
+            {
+                "question": "Tìm phương án giải thích sai trong luận điểm của Hồ Chí Minh 'Đảng cầm quyền vừa là người lãnh đạo, vừa là người đầy tớ trung thành của nhân dân'.",
+                "option1": "Người lãnh đạo là xác định quyền lãnh đạo duy nhất của Đảng đối với toàn bộ xã hội và khi có chính quyền, Đảng lãnh đạo chính quyền nhà nước.",
+                "option2": "Lãnh đạo phải bằng giáo dục, thuyết phục, nghĩa là Đảng phải làm cho dân tin, dân phục để dân theo.",
+                "option3": "Là người lãnh đạo Đảng phải sâu sát, gắn bó mật thiết với nhân dân, lắng nghe ý kiến của dân, khiêm tốn học hỏi nhân dân và phải kiểm soát nhân dân.",
+                "option4": "'Đầy tớ' có nghĩa là tận tâm, tận lực phụng sự nhân dân nhằm đem lại quyền lợi và lợi ích cho nhân dân.",
+                "ans": 3
+            },
+            {
+                "question": "Nội dung nào không đúng với tư tưởng Hồ Chí Minh về thái độ, phương pháp tự phê bình và phê bình:",
+                "option1": "Phải tiến hành thường xuyên như người ta rửa mặt hằng ngày.",
+                "option2": "Phải thẳng thắn, chân thành, trung thực, không nể nang, không giấu giếm và cũng không thêm bớt khuyết điểm.",
+                "option3": "'Phải có tình đồng chí thương yêu lẫn nhau'.",
+                "option4": "Phải khôn khéo biến hóa cho phù hợp.",
+                "ans": 4
+            },
+            {
+                "question": "Theo Hồ Chí Minh, Đảng cầm quyền vừa là người lãnh đạo, vừa là:",
+                "option1": "Người thầy trung thành của nhân dân.",
+                "option2": "Người hầu trung thành của nhân dân.",
+                "option3": "Người đầy tớ trung thành của nhân dân.",
+                "option4": "Người lính trung thành của nhân dân.",
+                "ans": 3
+            },
+            {
+                "question": "Theo Hồ Chí Minh, nền tảng tư tưởng của Đảng Cộng sản Việt Nam là gì?",
+                "option1": "Chủ nghĩa xã hội",
+                "option2": "Chủ nghĩa Mác-Lênin",
+                "option3": "Chủ nghĩa xã hội dân chủ",
+                "option4": "Chủ nghĩa Tam dân",
+                "ans": 2
+            },
+            {
+                "question": "Theo tư tưởng Hồ Chí Minh, luận điểm Đảng Cộng sản Việt Nam là sản phẩm của sự kết hợp giữa chủ nghĩa Mác-Lênin với phong trào công nhân và phong trào yêu nước là:",
+                "option1": "Xác định nhiệm vụ của Đảng.",
+                "option2": "Xác định bản chất của Đảng.",
+                "option3": "Xác định nguồn gốc ra đời của Đảng.",
+                "option4": "Xác định năng lực của Đảng.",
+                "ans": 3
+            },
+            {
+                "question": "Theo tư tưởng Hồ Chí Minh, nền tảng tư tưởng của Đảng phải dựa trên:",
+                "option1": "Chủ nghĩa Mác-Lênin.",
+                "option2": "Nguyên tắc tập trung dân chủ.",
+                "option3": "Nguyên tắc phê bình và tự phê bình.",
+                "option4": "Chủ nghĩa xã hội khoa học.",
+                "ans": 1
+            },
+            {
+                "question": "Tìm ra luận điểm sai trong tư tưởng Hồ Chí Minh khi Người lưu ý tiếp nhận và vận dụng chủ nghĩa Mác - Lênin:",
+                "option1": "Một là, việc học tập, nghiên cứu, tuyên truyền chủ nghĩa Mác - Lênin phải luôn phù hợp với từng đối tượng.",
+                "option2": "Hai là, việc vận dụng chủ nghĩa Mác - Lênin phải luôn luôn kiên định trong mọi hoàn cảnh.",
+                "option3": "Ba là, trong quá trình hoạt động, Đảng ta phải chú ý học tập, kế thừa những kinh nghiệm tốt của các đảng cộng sản khác, đồng thời Đảng ta phải tổng kết kinh nghiệm của mình để bổ sung chủ nghĩa Mác - Lênin.",
+                "option4": "Bốn là, Đảng ta phải tăng cường đấu tranh để bảo vệ sự trong sáng của chủ nghĩa Mác - Lênin.",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, Đảng cầm quyền là Đảng tiếp tục lãnh đạo sự nghiệp cách mạng trong điều kiện Đảng lãnh đạo quần chúng nhân dân giành được quyền lực nhà nước và:",
+                "option1": "Đảng gương mẫu lãnh đạo bộ máy nhà nước đó.",
+                "option2": "Đảng trực tiếp lãnh đạo bộ máy nhà nước đó.",
+                "option3": "Đảng khiêm nhường lãnh đạo bộ máy nhà nước đó.",
+                "option4": "Đảng gián tiếp lãnh đạo bộ máy nhà nước đó.",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, bản chất của Đảng:",
+                "option1": "Không thay đổi khi có chính quyền trong tay.",
+                "option2": "Luôn thay đổi khi có chính quyền trong tay.",
+                "option3": "Đôi khi thay đổi khi có chính quyền trong tay.",
+                "option4": "Đã thay đổi khi có chính quyền trong tay.",
+                "ans": 1
+            },
+            {
+                "question": "Theo tư tưởng Hồ Chí Minh, Đảng cộng sản Việt Nam là sản phẩm của sự kết hợp giữa:",
+                "option1": "Chủ nghĩa Mác-Lênin với phong trào công nhân.",
+                "option2": "Phong trào công nhân với phong trào yêu nước.",
+                "option3": "Chủ nghĩa Mác-Lênin với phong trào công nhân và phong trào yêu nước.",
+                "option4": "Chủ nghĩa Mác - Lênin với phong trào yêu nước.",
+                "ans": 3
+            },
+            {
+                "question": "'Việc gì đã được đông người bàn bạc kỹ lưỡng rồi, kế hoạch định rõ ràng rồi, thì cần phải giao cho một người hoặc một nhóm ít người phụ trách theo kế hoạch đó mà thi hành. Như thế mới có chuyên trách, công việc mới chạy. Nếu không có ..... thì sẽ sinh cái tệ người này ủy cho người kia, người kia ủy cho người nọ, kết quả là không ai thi hành. Như thế thì việc gì cũng không xong'",
+                "option1": "Tập thể lãnh đạo",
+                "option2": "Cá nhân phụ trách",
+                "option3": "Cá nhân lãnh đạo",
+                "option4": "Tập thể phụ trách",
+                "ans": 2
+            },
+            {
+                "question": "'(...) có vững cách mạng mới thành công cũng như người cầm lái có vững thuyền mới chạy'",
+                "option1": "Đảng",
+                "option2": "Chính quyền",
+                "option3": "Lực lượng",
+                "option4": "Đoàn thể",
+                "ans": 1
+            },
+            {
+                "question": "Theo Hồ Chí Minh, một Đảng chân chính cách mạng phải có (...). (...) tạo nên uy tín, sức mạnh của Đảng, giúp Đảng đủ tư cách lãnh đạo, hướng dẫn quần chúng nhân dân.",
+                "option1": "Đạo đức",
+                "option2": "Lý luận",
+                "option3": "Năng lực",
+                "option4": "Tài năng",
+                "ans": 1
+            },
+            {
+                "question": "Quy luật ra đời của Đảng Cộng sản Việt Nam được Hồ Chí Minh vạch ra:",
+                "option1": "Không khác với chủ nghĩa Mác-Lênin.",
+                "option2": "Trái ngược với chủ nghĩa Mác-Lênin.",
+                "option3": "Không liên quan đến chủ nghĩa Mác-Lênin.",
+                "option4": "Bổ sung vào kho tàng lý luận của chủ nghĩa Mác - Lênin.",
+                "ans": 4
+            },
+            {
+                "question": "Nội dung nào không đúng với tư tưởng Hồ Chí Minh về thái độ, phương pháp tự phê bình và phê bình:",
+                "option1": "Phải tiến hành thường xuyên như người ta rửa mặt hằng ngày.",
+                "option2": "Phải thẳng thắn, chân thành, trung thực, không nể nang, không giấu giếm và cũng không thêm bớt khuyết điểm.",
+                "option3": "'Phải có tình đồng chí thương yêu lẫn nhau'.",
+                "option4": "Phải khôn khéo biến hóa cho phù hợp.",
+                "ans": 4
+            },        
+            {
+                "question": "'Lực lượng của giai cấp công nhân và nhân dân lao động là rất to lớn, là vô cùng vô tận. Nhưng lực lượng ấy cần có (....) mới chắc chắn thắng lợi'",
+                "option1": "Chính quyền tổ chức",
+                "option2": "Đảng lãnh đạo",
+                "option3": "Nhà nước quản lý",
+                "option4": "Đoàn thể lãnh đạo",
                 "ans": 2
             }
-        ],
+        ]
+        ,
         "chuong6.1.1" : [
             {
                 "question": "Hồ Chí Minh chủ trương kết hợp văn hóa dân tộc với điều gì?",
