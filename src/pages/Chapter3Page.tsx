@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 declare global {
     interface Window {
@@ -6,9 +7,11 @@ declare global {
     }
   }
 const Chapter3Page: React.FC = () => {
-    const handleTestButtonClick = () => {
-        console.log('Navigating to the test...');
-    };
+  const navigate = useNavigate();
+  const handleTestButtonClick = () => {
+    console.log("Navigating to the test...");
+    navigate('/Quiz/chuong4')
+  };
 
     return (
         <div className="w-full h-full bg-gradient-to-b from-yellow-50 to-gray-100 p-6">

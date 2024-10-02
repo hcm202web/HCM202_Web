@@ -1199,6 +1199,252 @@
                 "option4": "Tính toàn cầu và cốt lõi",
                 "ans": 3
             }
+        ],
+        "chuong6.2.1" : [
+            {
+                "question": "Theo Hồ Chí Minh, đạo đức là gì của người cách mạng?",
+                "option1": "Là trí tuệ",
+                "option2": "Là tài năng",
+                "option3": "Là gốc",
+                "option4": "Là mục tiêu",
+                "ans": 3
+            },
+            {
+                "question": "Trong tác phẩm 'Sửa đổi lối làm việc' (1947), Hồ Chí Minh so sánh đạo đức với gì?",
+                "option1": "Nền tảng của giáo dục",
+                "option2": "Gốc của cây, nguồn của sông suối",
+                "option3": "Trí tuệ của con người",
+                "option4": "Sức mạnh của chiến đấu",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng, nếu người cách mạng không có đạo đức, dù tài giỏi đến đâu, họ có thể làm được gì?",
+                "option1": "Lãnh đạo được nhân dân",
+                "option2": "Không lãnh đạo được nhân dân",
+                "option3": "Thực hiện được mọi công việc to tát",
+                "option4": "Xây dựng được xã hội mới",
+                "ans": 2
+            },
+            {
+                "question": "Trong tác phẩm 'Đạo đức cách mạng' (1958), Hồ Chí Minh viết rằng sự thắng lợi của cách mạng gắn liền với điều gì?",
+                "option1": "A. Đạo đức cách mạng",
+                "option2": "B. Sức mạnh quân sự",
+                "option3": "C. Tài năng lãnh đạo",
+                "option4": "D. Trí tuệ cách mạng",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh nhấn mạnh rằng, cán bộ, đảng viên muốn được dân tin, dân phục, dân yêu thì phải có điều gì?",
+                "option1": "Tài năng lãnh đạo",
+                "option2": "Đạo đức",
+                "option3": "Sức mạnh quân sự",
+                "option4": "Trí tuệ",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng đạo đức là yếu tố quyết định gì?",
+                "option1": "Sự đoàn kết dân tộc",
+                "option2": "Sự thành bại của mọi công việc",
+                "option3": "Sức mạnh của Đảng",
+                "option4": "Tinh thần chiến đấu",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, mọi việc thành hay bại chủ yếu là do gì?",
+                "option1": "Cán bộ có thấm nhuần đạo đức cách mạng hay không",
+                "option2": "Cán bộ có tài năng lãnh đạo hay không",
+                "option3": "Sự hỗ trợ quốc tế",
+                "option4": "Sự phát triển kinh tế",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh khẳng định, người cách mạng có đạo đức cách mạng sẽ không làm gì khi gặp khó khăn, gian khổ?",
+                "option1": "Lo lắng",
+                "option2": "Sợ sệt, rút lui",
+                "option3": "Thất vọng",
+                "option4": "Phản bội",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, đạo đức cách mạng giúp người cách mạng khi nào vẫn giữ vững tinh thần gian khổ, chất phác, khiêm tốn?",
+                "option1": "Khi gặp khó khăn",
+                "option2": "Khi bị phê phán",
+                "option3": "Khi gặp thuận lợi và thành công",
+                "option4": "Khi thất bại",
+                "ans": 3
+            },
+            {
+                "question": "Trong Di chúc của mình, Hồ Chí Minh nhấn mạnh điều gì về đảng viên và cán bộ?",
+                "option1": "Phải có tài năng",
+                "option2": "Phải thấm nhuần đạo đức cách mạng",
+                "option3": "Phải có kiến thức chuyên môn",
+                "option4": "Phải có khả năng lãnh đạo",
+                "ans": 2
+            }
+        ],
+        "chuong6.2.2" : [
+            {
+                "question": "Hồ Chí Minh đã phát triển khái niệm 'Trung với nước, hiếu với dân' từ phẩm chất đạo đức cũ nào?",
+                "option1": "Trung với Đảng, hiếu với dân",
+                "option2": "Trung với vua, hiếu với cha mẹ",
+                "option3": "Trung với lãnh đạo, hiếu với nhân dân",
+                "option4": "Trung với tổ quốc, hiếu với đồng bào",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, trung với nước là trung thành với điều gì?",
+                "option1": "Đảng và Chính phủ",
+                "option2": "Chế độ xã hội chủ nghĩa",
+                "option3": "Sự nghiệp dựng nước và giữ nước",
+                "option4": "Quân đội nhân dân",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh khẳng định quyền lực và lực lượng đều ở đâu?",
+                "option1": "Nơi dân",
+                "option2": "Ở Đảng và Chính phủ",
+                "option3": "Ở quân đội và công an",
+                "option4": "Ở Quốc hội",
+                "ans": 1
+            },
+            {
+                "question": "Trong Thư gửi thanh niên (1965), Hồ Chí Minh nhấn mạnh rằng 'trung với nước, hiếu với dân' đi kèm với điều gì?",
+                "option1": "Nhiệm vụ nào cũng hoàn thành, khó khăn nào cũng vượt qua, kẻ thù nào cũng đánh thắng",
+                "option2": "Phải luôn giữ vững tinh thần đoàn kết",
+                "option3": "Làm việc trung thành với tổ quốc",
+                "option4": "Thực hiện tốt nhiệm vụ của Đảng giao phó",
+                "ans": 1
+            },
+            {
+                "question": "Cần, kiệm, liêm, chính, chí công vô tư là những phẩm chất gắn liền với điều gì?",
+                "option1": "Hoạt động hàng ngày của mỗi người",
+                "option2": "Sự phát triển của kinh tế",
+                "option3": "Quan hệ quốc tế",
+                "option4": "Đoàn kết với quần chúng",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh nhấn mạnh 'Cần' có nghĩa là gì?",
+                "option1": "Siêng năng, chăm chỉ, lao động có kế hoạch và sáng tạo",
+                "option2": "Không lười biếng, tránh xa các công việc khó",
+                "option3": "Chăm chỉ nhưng phải có nhiều nghỉ ngơi",
+                "option4": "Chỉ làm việc khi có đủ điều kiện",
+                "ans": 1
+            },
+            {
+                "question": "Theo Hồ Chí Minh, 'Kiệm' là gì?",
+                "option1": "Chỉ tiêu khi cần thiết",
+                "option2": "Tiết kiệm sức lao động, thời gian, tiền của",
+                "option3": "Không sử dụng tài nguyên tự nhiên",
+                "option4": "Không chi tiêu cho hoạt động công cộng",
+                "ans": 2
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng 'Liêm' là gì?",
+                "option1": "Trong sạch, không tham lam",
+                "option2": "Không phô trương hình thức",
+                "option3": "Lao động không công",
+                "option4": "Tự lực tự cường",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh yêu cầu 'Chính' phải đi đôi với điều gì?",
+                "option1": "Thẳng thắn, đứng đắn, công bằng trong mọi việc",
+                "option2": "Luôn tuân thủ theo lãnh đạo",
+                "option3": "Biết lắng nghe người dân",
+                "option4": "Tránh tham gia vào công việc của người khác",
+                "ans": 1
+            },
+            {
+                "question": "Chí công vô tư theo Hồ Chí Minh là gì?",
+                "option1": "Cống hiến cho Đảng",
+                "option2": "Tránh xa các vấn đề của cá nhân",
+                "option3": "Hoàn toàn vì lợi ích chung, không vì tư lợi",
+                "option4": "Làm việc công khai minh bạch",
+                "ans": 3
+            }
+        ],
+        "chuong6.2.3" : [
+            {
+                "question": "Theo Hồ Chí Minh, nói đi đôi với làm là gì?",
+                "option1": "Một phương châm làm việc",
+                "option2": "Một nguyên tắc quản lý",
+                "option3": "Một nguyên tắc quan trọng trong xây dựng nền đạo đức mới",
+                "option4": "Một yếu tố trong việc giáo dục học sinh",
+                "ans": 3
+            },
+            {
+                "question": "Trong tác phẩm 'Đường cách mệnh', Hồ Chí Minh yêu cầu điều gì?",
+                "option1": "Học tập phải đi đôi với làm việc",
+                "option2": "Nói thì phải làm",
+                "option3": "Đảng viên phải đi trước, quần chúng theo sau",
+                "option4": "Cán bộ phải gương mẫu",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, nói đi đôi với làm đối lập với điều gì?",
+                "option1": "Đạo đức giả, nói mà không làm",
+                "option2": "Sự cống hiến",
+                "option3": "Tinh thần tự lực tự cường",
+                "option4": "Sự chăm chỉ",
+                "ans": 1
+            },
+            {
+                "question": "Trong việc giáo dục đạo đức, Hồ Chí Minh cho rằng điều gì có giá trị hơn một trăm bài diễn văn tuyên truyền?",
+                "option1": "Một tấm gương sống",
+                "option2": "Một kế hoạch chi tiết",
+                "option3": "Một bài giảng lý thuyết",
+                "option4": "Một cuộc họp quần chúng",
+                "ans": 1
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng, để hướng dẫn nhân dân, cán bộ cần phải làm gì?",
+                "option1": "Cư xử nghiêm khắc",
+                "option2": "Làm gương cho nhân dân noi theo",
+                "option3": "Hướng dẫn bằng lý thuyết",
+                "option4": "Tăng cường kiểm tra, giám sát",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, việc nêu gương trong đạo đức phải được thực hiện trên những lĩnh vực nào?",
+                "option1": "Tinh thần và thể chất",
+                "option2": "Tinh thần và chính trị",
+                "option3": "Tinh thần, vật chất và văn hóa",
+                "option4": "Chính trị và giáo dục",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh cho rằng muốn xây dựng Đảng và tổ chức cách mạng thì phải làm gì?",
+                "option1": "Đào tạo cán bộ lãnh đạo",
+                "option2": "Tổ chức các cuộc họp",
+                "option3": "Lấy gương người tốt, việc tốt để hằng ngày giáo dục lẫn nhau",
+                "option4": "Tăng cường giám sát cán bộ",
+                "ans": 3
+            },
+            {
+                "question": "Hồ Chí Minh ví dụ rằng 'từng giọt nước nhỏ thấm vào lòng đất' sẽ làm gì?",
+                "option1": "Làm mát đất",
+                "option2": "Chảy về một hướng để thành suối, thành sông",
+                "option3": "Tạo thành những cơn mưa lớn",
+                "option4": "Gây ra sự ngập lụt",
+                "ans": 2
+            },
+            {
+                "question": "Theo Hồ Chí Minh, đạo đức mới sẽ được xây dựng khi nào?",
+                "option1": "Khi có đủ điều kiện vật chất",
+                "option2": "Khi chuẩn mực đạo đức trở thành hành vi đạo đức hằng ngày của mỗi người",
+                "option3": "Khi Đảng có đủ cán bộ lãnh đạo",
+                "option4": "Khi có sự hỗ trợ của quốc tế",
+                "ans": 2
+            },
+            {
+                "question": "Nguyên tắc xây đi đôi với chống là gì?",
+                "option1": "Xây dựng các giá trị mới và chống lại các hành vi vô đạo đức",
+                "option2": "Xây dựng kế hoạch và chống lại các thế lực thù địch",
+                "option3": "Tăng cường sản xuất và chống lại sự lãng phí",
+                "option4": "Phát triển kinh tế và chống lại nạn đói",
+                "ans": 1
+            }
         ]        
     }
 }

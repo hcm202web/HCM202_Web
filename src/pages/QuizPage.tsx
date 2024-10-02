@@ -55,10 +55,17 @@ const QuizPage: React.FC = () => {
           <option value="chuong3">Chương 3: Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội</option>
           <option value="chuong4">Chương 4: Tư tưởng Hồ Chí Minh về Đảng Cộng sản Việt Nam và Nhà nước của dân, do dân và vì dân</option>
           <option value="chuong5">Chương 5: Tư tưởng Hồ Chí Minh về đại đoàn kết toàn dân tộc và đoàn kết quốc tế</option>
-          <option value="chuong6" disabled>Chương 6: Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người</option>
-          <option value="chuong6.1.1">Chương 6.1.1 Một số nhận thức chung về văn hóa và quan hệ giữa văn hóa với các lĩnh vực khác</option>
-          <option value="chuong6.1.2">Chương 6.1.2 Quan điểm của Hồ Chí Minh về vai trò của văn hóa</option>
-          <option value="chuong6.1.3">Chương 6.1.3 Quan điểm Hồ Chí Minh về xây dựng nền văn hóa mới</option>
+          <option disabled>Chương 6: Tư tưởng Hồ Chí Minh về văn hóa, đạo đức, con người</option>
+          <option disabled>Mục I: Tư tưởng Hồ Chí Minh về văn hóa</option>
+          <option value="chuong6.1.1">6.1.1 Một số nhận thức chung về văn hóa và quan hệ giữa văn hóa với các lĩnh vực khác</option>
+          <option value="chuong6.1.2">6.1.2 Quan điểm của Hồ Chí Minh về vai trò của văn hóa</option>
+          <option value="chuong6.1.3">6.1.3 Quan điểm Hồ Chí Minh về xây dựng nền văn hóa mới</option>
+          <option disabled>Mục II: Tư tưởng Hồ Chí Minh về đạo đức</option>
+          <option value="chuong6.2.1">6.2.1 Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng</option>
+          <option value="chuong6.2.2">6.2.2 Quan điểm về những chuẩn mực đạo đức cách mạng</option>
+          <option value="chuong6.2.3">6.2.3 Quan điểm về những nguyên tắc xây dựng đạo đức cách mạng </option>
+          <option disabled>Mục III: Tư tưởng Hồ Chí Minh về con người</option>
+          <option disabled>Mục IV: Xây dựng văn hóa, đạo đức, con người Việt Nam hiện nay theo tư tưởng Hồ Chí Minh</option>
         </select>
       </div>
       {result?<>
