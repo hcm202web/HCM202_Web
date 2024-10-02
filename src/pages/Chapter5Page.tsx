@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 declare global {
   interface Window {
@@ -7,6 +8,12 @@ declare global {
 }
 
 const Chapter5Page: React.FC = () => {
+  const navigate = useNavigate();
+  const handleTestButtonClick = () => {
+    console.log("Navigating to the test...");
+    navigate('/Quiz/chuong5')
+  };
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-yellow-50 to-gray-100 p-6">
       <div className="flex flex-col justify-center items-center w-full mt-5 text-4xl md:text-5xl lg:text-6xl text-[#8B4513]">
@@ -37,6 +44,14 @@ const Chapter5Page: React.FC = () => {
           width="1120"
           height="628"
         ></iframe>
+      </div>
+      <div className="flex justify-center mt-8">
+        <button
+          onClick={handleTestButtonClick}
+          className="px-8 py-3 bg-[#8B4513] text-white text-xl rounded-lg shadow-lg hover:bg-[#7a3e12] transition-all duration-300"
+        >
+          Làm bài quiz
+        </button>
       </div>
     </div>
   );
