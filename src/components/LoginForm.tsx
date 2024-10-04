@@ -4,12 +4,13 @@ import logo from '../assets/logo.png';
 import { UserLogin } from '../services/services';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store';
+import { GoogleLogin } from '@react-oauth/google';
 
 const SignInForm: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
   const [isRememberTick, setIsRememberTick] = useState(false);
   const [isError, setIsError] = useState(false);
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ const SignInForm: React.FC = () => {
   const { login } = useStore();
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
-    setIsLoading(true);
+    // setIsLoading(true);
 
     try {
 
@@ -30,15 +31,24 @@ const SignInForm: React.FC = () => {
         } else {
           setIsError(true);
         }
-        setIsLoading(false);
+        // setIsLoading(false);
       }, 1000);
     } catch (error) {
       setIsError(true);
-      setIsLoading(false);
+      // setIsLoading(false);
     } finally {
-      setIsLoading(false);
+      // setIsLoading(false);
     }
   };
+
+  const handleLoginGoogle = async (accessToken?: string) => { 
+    if (accessToken) {
+      login(accessToken, username, "", isRememberTick);
+      navigate('/');
+    } else {
+      setIsError(true);
+    }
+  }
 
   return (
     <div className="w-[50%] bg-white p-8 rounded-2xl"
@@ -46,10 +56,10 @@ const SignInForm: React.FC = () => {
         boxShadow: '0px 12px 42.9px -14px rgba(0, 0, 0, 0.10)',
       }}>
       <div className="mt-2">
-        <div className="flex justify-left aspect-auto">
+        <div className="flex justify-center aspect-auto">
           <img alt="logo" className="" src={logo} />
         </div>
-        <h2 className="text-left text-4xl font-bold">
+        <h2 className="text-center text-4xl font-bold">
           Login
         </h2>
       </div>
@@ -121,7 +131,7 @@ const SignInForm: React.FC = () => {
         </div>
 
         <div>
-          <button
+          {/* <button
             type="submit"
             className="group relative w-full flex justify-center py-3 px-4 border border-transparent 
             text-sm font-medium rounded text-[#F3F3F3] bg-[#5584FF] hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -154,7 +164,15 @@ const SignInForm: React.FC = () => {
             ) : (
               'Login'
             )}
-          </button>
+          </button> */}
+          <GoogleLogin
+            onSuccess={credentialResponse => {
+              handleLoginGoogle(credentialResponse.credential);
+            }}
+            onError={() => {
+              console.log('Login Failed');
+            }}
+          />
         </div>
       </form>
     </div>
